@@ -1,0 +1,76 @@
+
+/* Fonts */
+/* src/styles/fonts.css */
+
+/* --- NEW FONT FACE RULE FOR LATO BLACK --- */
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/lato-black-webfont.woff2') format('woff2'),
+       url('/fonts/lato/lato-black-webfont.woff') format('woff');
+  font-weight: 900; /* Standard font weight for black */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/lato-bold-webfont.woff2') format('woff2'),
+       url('/fonts/lato/lato-bold-webfont.woff') format('woff');
+  font-weight: 700; /* Standard font weight for bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/lato-bolditalic-webfont.woff2') format('woff2'),
+       url('/fonts/lato/lato-bolditalic-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/lato-italic-webfont.woff2') format('woff2'),
+       url('/fonts/lato/lato-italic-webfont.woff') format('woff');
+  font-weight: 400; /* Standard font weight for regular italic */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/lato-light-webfont.woff2') format('woff2'),
+       url('/fonts/lato/lato-light-webfont.woff') format('woff');
+  font-weight: 300; /* Standard font weight for light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/lato-lightitalic-webfont.woff2') format('woff2'),
+       url('/fonts/lato/lato-lightitalic-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/lato-regular-webfont.woff2') format('woff2'),
+       url('/fonts/lato/lato-regular-webfont.woff') format('woff');
+  font-weight: 400; /* Standard font weight for regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/lato-thin-webfont.woff2') format('woff2'),
+       url('/fonts/lato/lato-thin-webfont.woff') format('woff');
+  font-weight: 100; /* Standard font weight for thin/hairline */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato/lato-thinitalic-webfont.woff2') format('woff2'),
+       url('/fonts/lato/lato-thinitalic-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}

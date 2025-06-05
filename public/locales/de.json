@@ -1,0 +1,397 @@
+{
+  "WebsiteName": {
+    "ml": "Maschinelles Lernen",
+    "with_lego": "mit LEGO® Bausteinen"
+  },
+  "Navigation": {
+    "experiments": "Experimente 💡",
+    "materials": "Materialien 📚",
+    "imprint": "Impressum ℹ️",
+    "privacyPolicy": "Datenschutzerklärung 👤",
+    "troubleshooting": "Fehlerbehebung 🚧"
+  },
+  "Experiments": {
+    "fruit-predictor": {
+      "title": "Automatische Obsterkennung",
+      "description": "Erkenne eine Frucht anhand ihrer Länge und Farbe mithilfe von K-Nearest Neighbors!"
+    },
+    "pitcher": {
+      "title": "Pingponger",
+      "description": "Baue einen Roboter, der mit Hilfe von linearer Regression immer ins Ziel trifft!"
+    },
+    "crawler": {
+      "title": "Krabbler",
+      "description": "Baue einen Roboter, der selbstständig Krabbeln lernt!"
+    }
+  },
+  "FruitPredictor": {
+    "title": "$t(Experiments.fruit-predictor.title)",
+    "description": "Sage eine Frucht mit ihrer Länge und Farbe vorher!",
+    "yAxisTitle": "Länge \u00A0 [cm]",
+    "xAxisTitle": "Farbe",
+    "showDecisionBorder": "Entscheidungsgrenze zeigen: ",
+    "hideInfer": "Vorhersagedatenpunkt verbergen: ",
+    "controlsTitle": "Steuerung",
+    "dataTitle": "Daten",
+    "fruitLabels": {
+      "banana": "Banane",
+      "apple": "Apfel"
+    },
+    "delete": "Entfernen",
+    "label": "Label",
+    "modelModes": {
+      "train": "Training",
+      "infer": "Vorhersage"
+    },
+    "selectClass": "Aktuelle Klasse:",
+    "toasts": {
+      "codeStarted": "Programm gestartet!"
+    }
+  },
+  "PingPonger": {
+    "title": "$t(Experiments.pitcher.title)",
+    "description": "Baue einen Roboter, der immer ins Ziel trifft!",
+    "modelModes": {
+      "train": "Training",
+      "infer": "Vorhersage"
+    },
+    "hideInfer": "Inferenzdatenpunkt verbergen: ",
+    "yAxisTitle": "Motorleistung p \u00A0 [%]",
+    "xAxisTitle": "Abstand d \u00A0 [cm]",
+    "delete": "Entfernen",
+    "sendNewPower": "Aktualisieren",
+    "power": "Motorleistung",
+    "calculateBest": "Beste Parameter ausrechnen",
+    "linearRegression": "Lineare Regression",
+    "latex": {
+      "eachPoint": "jeder\\:Punkt",
+      "lineEquation": "Geradengleichung",
+      "real": "reell"
+    },
+    "parameters": {
+      "slope": "Steigung",
+      "intercept": "Achsenabschnitt"
+    },
+    "launch": "Ball werfen",
+    "measure": "Abstand messen",
+    "toasts": {
+      "min2Points": "Du brauchst mindestens 2 Datenpunkte.",
+      "codeStarted": "Programm gestartet!"
+    },
+    "loss": "Verlust"
+  },
+  "Crawler": {
+    "title": "$t(Experiments.crawler.title)",
+    "description": "Baue einen selbstlernenden Krabbler!",
+    "modes": {
+      "automatic": "Auto",
+      "semiAutomatic": "Semi-auto",
+      "manual": "Manuell"
+    },
+    "modeLabel": "Halt vor der nächsten Bewegung",
+    "explorations": {
+      "no": "keine",
+      "low": "niedrige",
+      "high": "hohe"
+    },
+    "explorationLabel": "Exploration",
+    "table": {
+      "rowsHeader": "Aktueller Zustand",
+      "columnsHeader": "Nächster Zustand"
+    },
+    "actionType": {
+      "exploitation": "Exploitation",
+      "exploration": "Exploration"
+    },
+    "actionTypeLabel": "Modus",
+    "thinkFutureLabel": "Voraussicht",
+    "controls": "Steuerung",
+    "actionQualityTable": "Entscheidungstabelle",
+    "rewardDiagram": "Belohnungsdiagramm",
+    "toasts": {
+      "codeStarted": "Programm gestartet!",
+      "tooClose": "Der Krabbler ist zu nah an der Wand. Positioniere ihn neu und klicke auf 'Weiter', um fortzufahren.",
+      "tooFar": "Der Krabbler ist zu weit von der Wand entfernt. Positioniere ihn neu und klicke auf 'Weiter', um fortzufahren."
+    }
+  },
+  "video": "Video",
+  "pdf": "PDF",
+  "these instructions": "diese Anleitung",
+  "FruitPredictorInstructions": {
+    "paragraph1": "Auf dieser Seite lernst Du, wie Du ein einfaches Klassifizierungsgerät baust, welches Äpfel und Bananen unterscheiden kann. Das Gerät verwendet Farbe und Länge als Merkmale, die vom K-Nearest Neighbor-Algorithmus verarbeitet werden, um eine Vorhersage zu treffen.",
+    "paragraph2": "Du kannst unserem [Video](https://youtu.be/G8OpubRhUhU) folgen und die Experimente Schritt für Schritt mit uns durchführen oder das Klassifizierungsgerät selbständig anhang der folgenden Anleitung bauen.",
+    "step1": {
+      "heading": "1. Zusammenbau",
+      "paragraph1": "Baue zuerst das Gerät anhand  [dieser Anleitung](/ml-with-bricks/materials/$t(localeCode)/assembly/fruit-predictor.pdf) zusammen. Stelle sicher, dass alle Sensoren an den korrekten Anschlüssen des Hubs angeschlossen sind.",
+      "paragraph2": "Verbinde dann Deinen Hub entweder mit der [PDF](/ml-with-bricks/materials/$t(localeCode)/connection.pdf)- oder der [Video](https://youtu.be/ZsviP40PnuA)-Anleitung."
+    },
+    "step2": {
+      "heading": "2. Datenerfassung",
+      "paragraph1": "Nachdem Du den Hub mit der Webplattform verbunden hast, starte den Code und warte auf die Bestätigung des Code-Starts. Sammle mindestens vier Äpfel und vier Bananen. Nimm jeweils drei davon und erfasse ihre Länge und Farbe wie folgt: bringe jede Frucht zum Farbsensor und klicke auf die rechte Schaltfläche am Hub, um ihre Farbe aufzuzeichnen. Lege dann dieselbe Frucht in den Greifer, schließe diesen und entferne die Frucht. Klicke nach dem Entfernen auf die linke Schaltfläche am Hub, um die Länge zu messen. Die gemessenen Datenpunkte erscheinen im unterstehenden Diagramm, wobei die Länge der Frucht auf der Y-Achse und ein Farbspektrum (von Rot nach Gelb) auf der X-Achse dargestellt wird."
+    },
+    "step3": {
+      "heading": "3. Vorhersage",
+      "paragraph1": "Schalte den Modellmodus auf 'Vorhersage'. Neue Früchte werden mithilfe des K-Nearest Neighbor-Algorithmus klassifiziert. Der Algorithmus berechnet die Entfernungen zu allen vorhandenen Datenpunkten. Anschließend wählt er die 'K' (standardmäßig drei) nächsten Nachbarn aus und führt eine Abstimmung durch. Wenn die Mehrheit dieser Nachbarn Äpfel sind, wird die neue Frucht als Apfel vorhergesagt, und umgekehrt für Bananen.",
+      "paragraph2": "Um das Modell zu testen, messe die Länge und Farbe einer neuen Frucht wie beim Training. Die vorhergesagte Fruchtart wird auf dem Hub angezeigt, und ein neuer Datenpunkt erscheint im Diagramm. Linien verbinden diesen neuen Punkt mit den nächsten Nachbarn, die an der Abstimmung teilgenommen haben."
+    },
+    "step4": {
+      "heading": "4. Things to Try",
+      "paragraph1": "Versuche, die Visualisierung der 'Entscheidungsgrenze' einzuschalten. Dies zeigt Bereiche, in denen eine neue Frucht basierend auf ihren Merkmalen entweder als Apfel (in einer Farbe) oder als Banane (in einer anderen Farbe) vorhergesagt wird. Experimentiere mit der Erhöhung der Anzahl der Nachbarn ('K'), die an der Abstimmung teilnehmen, und beobachte, wie sich die Entscheidungsgrenze verändert."
+    }
+ },
+  "HubInteraction": {
+    "portState": {
+      "closed": "Hub verbinden",
+      "open": "Hub trennen",
+      "opening": "Verbindung...",
+      "closing": "Trennung..."
+    },
+    "launchCode": "Programm starten",
+    "stopCode": "Programm stoppen",
+    "reboot": "Hub neu starten",
+    "troubleshooting": "Es scheint, dass Dein Browser keine Bluetooth-Verbindung unterstützt. Bitte lies unsere [Seite zur Fehlerbehebung](/ml-with-bricks/#/troubleshooting)."
+  },
+  "Settings": {
+    "title": "Einstellungen",
+    "bigMotorPort": "Port des großen Motors",
+    "smallMotorPort": "Port des kleinen Motors",
+    "leftMotorPort": "Port des linken Motors",
+    "rightMotorPort": "Port des rechten Motors",
+    "distanceSensorPort": "Port des Abstandssensors",
+    "colorSensorPort": "Port des Farbsensors",
+    "isReversed": "Ist die Bewegung umgekehrt?",
+    "bigMotorSpeed": "Geschwindigkeit des großen Motors",
+    "smallMotorSpeed": "Geschwindigkeit des kleinen Motors"
+  },
+  "Imprint": {
+    "title": "Impressum",
+    "contact": {
+      "heading": "Kontakt",
+      "email": "**E-Mail**: [viacheslav.sydora@tuebingen.mpg.de](mailto:viacheslav.sydora@tuebingen.mpg.de)",
+      "phone": "**Telefonnummer**: +49 174 781 7599"
+    },
+    "euDisputeResolution": {
+      "heading": "EU-Streitschlichtung",
+      "paragraph1": "Die Europäische Kommission stellt eine [Plattform zur Online-Streitbeilegung (OS)](https://ec.europa.eu/consumers/odr/) bereit. Unsere E-Mail-Adresse finden Sie oben im Impressum."
+    },
+    "consumerDisputeResolution": {
+      "heading": "Verbraucherstreitbeilegung/Universalschlichtungsstelle",
+      "paragraph1": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Datenschutzerklärung",
+    "effectiveDate": "Stand: 30. Mai 2025",
+    "section1": {
+      "title": "1. Datenschutz auf einen Blick",
+      "generalNotes": {
+        "heading": "Allgemeine Hinweise",
+        "paragraph1": "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie unsere Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten, ausführlichen Datenschutzerklärung.",
+        "dataCollectionOnThisWebsite": "Datenerfassung auf dieser Website",
+        "whoResponsible": "Wer ist verantwortlich für die Datenerfassung auf dieser Website?",
+        "whoResponsibleAnswer": "Die Datenverarbeitung auf dieser Website erfolgt durch uns als Websitebetreiber. Unsere Kontaktdaten können Sie dem Abschnitt „Informationen zur verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen.",
+        "howDoWeCollect": "Wie erfassen wir Ihre Daten?",
+        "howDoWeCollectAnswer": "Wir erheben keine personenbezogenen Daten direkt von Ihnen. Unsere Website speichert lediglich nicht-personenbezogene Informationen lokal in Ihrem Browser (Local Storage), um Ihre Nutzung der Website zu ermöglichen und zu verbessern.",
+        "whatDoWeUseDataFor": "Wofür nutzen wir Ihre Daten?",
+        "whatDoWeUseDataForAnswer": "Die lokal in Ihrem Browser gespeicherten Daten dienen ausschließlich der Funktionalität und Verbesserung Ihres Nutzererlebnisses innerhalb der Website.",
+        "yourRights": "Welche Rechte haben Sie bezüglich Ihrer Daten?",
+        "yourRightsAnswer": "Da wir keine personenbezogenen Daten von Ihnen erheben oder speichern, beziehen sich die üblichen Datenschutzrechte (Auskunft, Berichtigung, Löschung etc.) auf Daten, die von Drittanbietern (wie unserem Hosting-Provider) oder lokal auf Ihrem Gerät verarbeitet werden. Details zu diesen Rechten und deren Ausübung finden Sie in den entsprechenden Abschnitten weiter unten."
+      }
+    },
+    "section2": {
+      "title": "2. Hosting",
+      "paragraph1": "Wir hosten die Inhalte unserer Website bei **GitHub, Inc.**, 88 Colin P. Kelly Jr. Street, San Francisco, California, 94107.",
+      "paragraph2": "Wenn Sie unsere Website nutzen, erhebt **GitHub Inc.** bestimmte Informationen. [Laut GitHub](https://docs.github.com/pages/getting-started-with-github-pages/what-is-github-pages#data-collection) wird Ihre **IP-Adresse zu Sicherheitszwecken protokolliert und gespeichert.** Dies ist eine Standardpraxis für die meisten Hosting-Dienste.",
+      "paragraph3": "Für detailliertere Informationen zu den Datenerfassungspraktiken von GitHub verweisen wir auf die [Datenschutzerklärung von GitHub](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).",
+      "paragraph4": "Die Erfassung dieser Daten durch GitHub fällt in den Bereich der Bereitstellung ihres Hosting-Dienstes, was als berechtigtes Interesse des Hosting-Providers (Art. 6 Abs. 1 lit. f DSGVO) gilt.",
+      "dataTransfer": {
+        "heading": "Internationale Datenübermittlungen",
+        "paragraph1": "**GitHub Inc.** speichert und verarbeitet personenbezogene Daten an verschiedenen Standorten, einschließlich Ihrer lokalen Region, der Vereinigten Staaten und anderen Ländern, in denen **GitHub Inc.**, seine verbundenen Unternehmen, Tochtergesellschaften oder Subunternehmer tätig sind. **GitHub Inc.** übermittelt personenbezogene Daten aus der Europäischen Union, dem Vereinigten Königreich und der Schweiz in Länder, die von der Europäischen Kommission nicht als Länder mit einem angemessenen Datenschutzniveau anerkannt wurden. Wenn **GitHub Inc.** solche Übermittlungen vornimmt, stützen **sie** sich im Allgemeinen auf die von der Europäischen Kommission gemäß der Durchführungsentscheidung 2021/914 veröffentlichten Standardvertragsklauseln, um Ihre Rechte zu schützen und sicherzustellen, dass diese Schutzmaßnahmen mit Ihren Daten reisen. Weitere Informationen zu den Entscheidungen der Europäischen Kommission über die Angemessenheit des Schutzes personenbezogener Daten in den Ländern, in denen **GitHub Inc.** personenbezogene Daten verarbeitet, finden Sie in diesem Artikel auf der [Website der Europäischen Kommission](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en)."
+      }
+    },
+    "section3": {
+      "title": "3. Allgemeine Hinweise und Pflichtinformationen",
+      "dataProtection": {
+        "heading": "Datenschutz",
+        "paragraph1": "Wir als Betreiber dieser Website nehmen den Schutz Ihrer Daten ernst. Unsere Website ist so datenminimierend wie möglich gestaltet."
+      },
+      "responsibleParty": {
+        "heading": "Informationen zur verantwortlichen Stelle",
+        "country": "Deutschland",
+        "paragraph1": "Verantwortliche Stelle für die Datenverarbeitung im Zusammenhang mit dieser Website ist:",
+        "email": "**E-Mail**: [viacheslav.sydora@tuebingen.mpg.de](mailto:viacheslav.sydora@tuebingen.mpg.de)",
+        "paragraph2": "Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet."
+      },
+      "dataRetention": {
+        "heading": "Speicherdauer der Daten",
+        "paragraph1": "Da wir keine personenbezogenen Daten direkt von Ihnen erheben, gibt es für uns keine Speicherdauer solcher Daten. Daten, die von GitHub im Rahmen des Hostings erhoben werden, unterliegen den Aufbewahrungsrichtlinien von GitHub. Lokal in Ihrem Browser gespeicherte Daten können Sie jederzeit selbst löschen."
+      },
+      "legalBasis": {
+        "heading": "Allgemeine Hinweise zur Rechtsgrundlage der Datenverarbeitung auf dieser Website",
+        "paragraph1": "Da wir keine personenbezogenen Daten direkt erheben, finden die klassischen Rechtsgrundlagen der DSGVO (Art. 6 Abs. 1 lit. a, b, c, f DSGVO und Art. 9 Abs. 2 lit. a DSGVO) auf unsere Website keine direkte Anwendung, da keine entsprechende Datenverarbeitung durch uns erfolgt.",
+        "paragraph2": "Daten, die von GitHub im Rahmen des Hostings erhoben werden (z. B. IP-Adressen), basieren auf dem **berechtigten Interesse** von GitHub (Art. 6 Abs. 1 lit. f DSGVO) zur Sicherstellung des Betriebs und der Sicherheit ihrer Dienste.",
+        "paragraph3": "Die Speicherung von Daten in Ihrem **Local Storage** erfolgt ausschließlich auf Ihrem Gerät und basiert auf der **technischen Notwendigkeit**, die Funktionalität unserer Website bereitzustellen."
+      },
+      "sslEncryption": {
+        "heading": "SSL- bzw. TLS-Verschlüsselung",
+        "paragraph1": "Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt und an dem Schloss-Symbol in Ihrer Browserzeile. Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an die Website übermitteln, nicht von Dritten mitgelesen werden."
+      }
+    },
+    "section4": {
+      "title": "4. Datenerfassung auf dieser Website",
+      "cookiesLocalStorage": {
+        "heading": "Cookies und Local Storage",
+        "paragraph1": "Unsere Website verwendet keine Cookies im herkömmlichen Sinne zur Nachverfolgung oder Analyse des Nutzerverhaltens. Wir nutzen jedoch den **Local Storage** Ihres Webbrowsers, der eine ähnliche Funktion wie persistente Cookies hat, jedoch für unsere Zwecke:",
+        "listItem1": "**Speicherung des Experimentfortschritts:** Ihr Fortschritt in Experimenten wird lokal in Ihrem Browser gespeichert. So können Sie die Website später fortsetzen, ohne Ihren Fortschritt zu verlieren.",
+        "listItem2": "**Speicherung der bevorzugten Sprache:** Ihre ausgewählte Sprache (z. B. über 'i18next') wird ebenfalls lokal gespeichert, damit die Website beim nächsten Besuch direkt in der richtigen Sprache angezeigt wird.",
+        "importantInfo": "Wichtige Informationen zum Local Storage:",
+        "listItem3": "**Keine persönlichen Daten:** Die im Local Storage gespeicherten Daten sind **nicht personenbezogen.** Sie können Sie in keiner Weise identifizieren.",
+        "listItem4": "**Nur auf Ihrem Gerät:** Diese Daten werden ausschließlich in Ihrem Webbrowser auf Ihrem eigenen Gerät gespeichert. **Sie werden niemals an uns, GitHub oder Dritte gesendet.**",
+        "listItem5": "**Nutzerkontrolle:** Sie haben die volle Kontrolle über diese Daten. Sie können sie jederzeit über die Einstellungen Ihres Webbrowsers (normalerweise in den Abschnitten „Entwicklertools“ oder „Datenschutz & Sicherheit“ zu finden) einsehen, bearbeiten oder löschen. Das Leeren der Browserdaten oder des Caches entfernt diese Informationen.",
+        "paragraph2": "Da diese Daten ausschließlich der Funktionalität der Website auf Ihrem Gerät dienen und keine personenbezogenen Daten sind, benötigen wir hierfür keine separate Einwilligung nach DSGVO oder TTDSG."
+      }
+    },
+    "section5": {
+      "title": "5. Links zu externen Websites",
+      "paragraph1": "Unsere Website kann Links zu externen Websites enthalten, die nicht von uns betrieben werden. Bitte beachten Sie, dass wir keine Kontrolle über den Inhalt oder die Datenschutzpraktiken dieser Drittanseiten haben. Wir übernehmen daher keine Haftung für diese externen Inhalte.",
+      "paragraph2": "Wenn Sie auf einen externen Link klicken, werden Sie auf die Website dieses Drittanbieters weitergeleitet. Wir raten Ihnen dringend, die Datenschutzerklärung und die Nutzungsbedingungen jeder von Ihnen besuchten Website zu überprüfen. **Bitte beachten Sie, dass einige dieser externen Websites von Anbietern außerhalb der Europäischen Union (EU) oder des Europäischen Wirtschaftsraums (EWR) betrieben werden können, was dazu führen könnte, dass Ihre Daten in Länder mit abweichenden Datenschutzstandards übertragen werden.** Die Datenschutzbestimmungen dieser externen Websites können von unseren eigenen abweichen. Wir sind nicht verantwortlich für deren Inhalt, Sicherheit oder Datenerfassungspraktiken."
+    },
+    "section6": {
+      "title": "6. Ihre Rechte",
+      "paragraph1": "Obwohl wir selbst keine personenbezogenen Daten direkt erheben, stehen Ihnen bestimmte Rechte bezüglich der von GitHub erhobenen oder lokal in Ihrem Browser gespeicherten Daten zu:",
+      "rightToInformation": {
+        "heading": "Recht auf Auskunft",
+        "paragraph1": "Sie haben das Recht, jederzeit Auskunft über die von GitHub zu Ihrer IP-Adresse gespeicherten Daten (gemäß der Datenschutzerklärung von GitHub) zu erhalten oder die lokal in Ihrem Browser gespeicherten Daten einzusehen."
+      },
+      "rightToRectificationDeletion": {
+        "heading": "Recht auf Berichtigung und Löschung",
+        "paragraph1": "Die lokal in Ihrem Browser gespeicherten Daten können Sie jederzeit selbst über Ihre Browsereinstellungen ändern oder löschen. Bezüglich der von GitHub erhobenen Daten wenden Sie sich bitte direkt an GitHub."
+      },
+      "rightToObject": {
+        "heading": "Recht auf Widerspruch",
+        "paragraph1": "Da wir selbst keine personenbezogenen Daten verarbeiten, besteht kein direktes Widerspruchsrecht gegen eine Datenverarbeitung für unsere Website. Bezüglich der Datenverarbeitung durch GitHub verweisen wir auf deren Datenschutzerklärung."
+      },
+      "rightToComplain": {
+        "heading": "Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde",
+        "paragraph1": "Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde zu, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Ortes des mutmaßlichen Verstoßes. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.",
+        "competentAuthority": "Die für uns in Deutschland zuständige Behörde ist:",
+        "authorityDetails": {
+          "name": "Landesbeauftragter für den Datenschutz und die Informationsfreiheit Baden-Württemberg",
+          "address": "Lautenschlagerstraße 20",
+          "plzCity": "70173 Stuttgart",
+          "country": "Deutschland",
+          "email": "**E-Mail:** [poststelle@lfdi.bwl.de](mailto:poststelle@lfdi.bwl.de)"
+        }
+      },
+      "paragraph2": "**Zur Ausübung Ihrer Rechte oder bei weiteren Fragen zum Datenschutz können Sie sich jederzeit unter den im Abschnitt „Informationen zur verantwortlichen Stelle“ angegebenen Kontaktdaten an uns wenden.**"
+    },
+    "section7": {
+      "title": "7. Änderungen dieser Datenschutzerklärung",
+      "paragraph1": "Wir behalten uns vor, diese Datenschutzerklärung anzupassen, sofern sich die Rechtslage ändert oder wir unsere Website modifizieren. Die aktuelle Version finden Sie stets auf dieser Seite."
+    }
+  },
+  "Materials": {
+    "title": "Materialien",
+    "text": "Hier findest Du Kursmaterialien wie Präsentationen und Videoaufzeichnungen.",
+    "Presentations": "Präsentationen",
+    "Presentations.english": "Englische",
+    "Presentations.german": "Deutsche",
+    "CoursePlaylist": "Kurs-Playlist",
+    "CoursePlaylistTitle": "YouTube-Videoplayer"
+  },
+  "Home": {
+    "title": "Hands-on Machine Learning mit LEGO® SPIKE",
+    "paragraph1": "Diese interaktive Webseite ermöglicht ein spielerisches Erlernen der Grundlagen des maschinellen Lernens mit dem [LEGO® Education SPIKE™ Prime Set](https://www.lego.com/product/lego-education-spike-prime-set-45678). Diese Webseite enthält drei Experimente, die grundlegende Algorithmen wie k-Nearest Neighbors, lineare Regression und Q-Learning interaktiv und anschaulich erklären. Alles, was Du brauchst, ist ein Gerät mit einem Browser, der Bluetooth-Verbindungen unterstützt. Die Kursmaterialien (pdf-Folien) und dazugehörige Video-Aufnahmen sind unten beigefügt.",
+    "paragraph2": "Dieser Kurs wurde durch [Viacheslav Sydora](https://www.linkedin.com/in/viacheslav-sydora/), [Guner Dilsad Er](https://guner-dilsad-er.github.io/) and [Michael Muehlebach](https://sites.google.com/view/mmuehlebach/) ([Max-Planck-Institut für Intelligente Systeme](https://is.mpg.de/)) in Kollaboration mit dem [KI-Makerspace](https://ki-maker.space/) entwickelt. Der Kurs ist für junge Erwachsene im Alter von 13-17 Jahren ausgelegt.",
+    "experiments": {
+      "heading": "Experimente",
+      "paragraph": "Die Experimente lehren überwachtes Lernen (Klassifizierung und Regression) sowie Reinforcement Learning auf intuitive und verständliche Weise."
+    },
+    "troubleshooting": {
+      "heading": "Fehlerbehebung",
+      "paragraph": "Bei technischen Problemen verweisen wir auf die [Seite zur Fehlerbehebung](/ml-with-bricks/#/troubleshooting) oder ermutigen Kontaktaufnahme per E-Mail: [viacheslav.sydora@tuebingen.mpg.de](mailto:viacheslav.sydora@tuebingen.mpg.de)."
+    },
+    "courseRecording": {
+      "heading": "Kursaufzeichnung",
+      "paragraph": "Die Anleitungen sind auf den dazugehörigen Experiment-Seiten beigefügt. Wir stellen den gesamten Kurs auf YouTube zur Verfügung:",
+      "watch": "Auf YouTube ansehen"
+    },
+    "courseMaterials": {
+      "heading": "Kursmaterialien",
+      "paragraph": "Wir ermutigen Lehrende, unsere Kursmaterialien und unser Web-Interface zu benutzen. Kursmaterialien stehen in [deutscher](/ml-with-bricks/materials/de/presentation.pdf) und [englischer](/ml-with-bricks/materials/en/presentation.pdf) Sprache zur Verfügung."
+    },
+    "developers": {
+      "heading": "Für Entwickler",
+      "paragraph": "Der Quellcode dieser Seite ist in dem folgenden [GitHub-Repository](https://github.com/learning-and-dynamics/ml-with-bricks) veröffentlicht. Wenn Du ein Entwickler oder eine Entwicklerin bist, der den LEGO® Hub über Bluetooth Low Energy (BLE) mit einer Webseite verbinden möchte, haben wir ein [Boilerplate](https://github.com/slavasg-lab/lego-spikeprime-ble-boilerplate) für Dich erstellt!"
+    }
+  },
+  "PitcherInstructions": {
+    "paragraph1": "In diesem Experiment bauen wir einen Roboter \u2013 genannt Pingponger \u2013 der lernt, immer ins Ziel zu treffen. Wir nutzen lineare Regression, um die benötigte Motorleistung aufgrund der Entfernung zum Ziel vorherzusagen.",
+    "paragraph2": "Du kannst unserem [Video](https://youtu.be/P_t-HRxQ80s) folgen und Deinen Pingponger Schritt für Schritt mit uns bauen, oder den Roboter selbständig anhang der folgenden Anleitung erstellen.",
+    
+    "step1": {
+      "heading": "1. Zusammenbau",
+      "paragraph1": "Baue zuerst den Pingponger anhand [dieser Anleitung](/ml-with-bricks/materials/$t(localeCode)/assembly/pitcher.pdf) zusammen. Stelle sicher, dass die Motoren und der Abstandssensor an den korrekten Anschlüssen des Hubs angeschlossen sind.",
+      "paragraph2": "$t(FruitPredictorInstructions.step1.paragraph2)"
+    },
+    "step2": {
+      "heading": "2. Datenerfassung",
+      "paragraph1": "Nachdem Du den Hub verbunden und den Code gestartet hast, sammeln wir Daten. Stelle den Pingponger an eine gleichbleibende Startposition. Lege einen Ball in die Halterung; stelle sicher, dass sich der Wurfarm immer in der 12-Uhr-Position befindet, da dies konsistente Würfe mit ausreichend Beschleunigungszeit gewährleistet. Beginne in der Weboberfläche mit einer Motorleistung von 20% (denke daran, auf 'Aktualisieren' zu klicken, damit die Änderungen übernommen werden). Klicke auf die Schaltfläche 'Ball werfen' auf der Webplattform, um den Ball zu werfen. Beobachte, wo der Ball landet. Halte ein Stück Karton an die Stelle, an der der Ball gelandet ist. Der Karton ermöglicht es dem Abstandssensor am Roboter, ein Signal auszusenden, dass vom Karton reflektiert wird, um die zurückgelegte Entfernung des Balls genau zu messen. Klicke auf die Schaltfläche 'Abstand messen' auf der Webplattform, um diese Entfernung aufzuzeichnen. Die gemessene Entfernung und die verwendete Motorleistung werden in der Weboberfläche aufgezeichnet. Wiederhole diese Schritte und verwende für jeden Wurf unterschiedliche Motorleistungswerte (z. B. 40%, 60%, 80%, bis zu 100%)."
+    },
+    "step3": {
+      "heading": "3. Vorhersage",
+      "paragraph1": "Wenn Du die gesammelten Datenpunkte in der unteren Grafik ansiehst, wirst Du feststellen, dass die Daten annähernd eine gerade Linie bilden. Dies deutet auf eine lineare Beziehung zwischen der Motorleistung und der Entfernung hin, die der Ball zurücklegt. Um die benötigte Motorleistung für das Treffen eines Ziels in einer bestimmten Entfernung vorherzusagen, verwendet der Pingponger eine Methode des maschinellen Lernens namens lineare Regression.",
+      "paragraph2": "Lineare Regression bestimmt die Linie, welche die Beziehung zwischen zwei Variablen am besten darstellt \u2013 in unserem Fall die Entfernung, wo der Ball landet, und die zum Werfen verwendete Motorleistung.",
+      "paragraph3": "Um zu verstehen, wie gut eine Linie zu den Daten passt, verwenden wir den Begriff 'Verlust' (Loss). Der Verlust stellt den Fehler zwischen der Linie und den tatsächlichen Datenpunkten dar. Eine einfache Möglichkeit, den Verlust zu berechnen, ist beispielsweise die Summe der vertikalen Abstände zwischen der Regressionsgeraden und jedem einzelnen Datenpunkt. Ein kleinerer Verlustwert deutet auf eine besser passende Linie hin.",
+      "paragraph4": "Um die beste Linie zu finden, werden wir den Verlust minimieren. Dies wird durch Anpassen des Achsenabschnitts (wo die Linie die Y-Achse schneidet) und der Steigung erreicht.",
+      "paragraph5": "Du kannst dies selbst ausprobieren, indem Du den Modellmodus auf 'Vorhersage' umschaltest. In diesem Modus kannst Du die Parameter für die Steigung und den Achsenabschnitt manuell anpassen, um den Verlust im Diagramm per Auge zu minimieren. Um die Parameter anzuzeigen, die der Algorithmus als die beste Anpassung für deine Daten berechnet, klicke auf die Schaltfläche 'Beste Parameter ausrechnen'.",
+      "paragraph6": "Um ein gegebenes Ziel zu treffen, platziere im 'Vorhersage'-Modus einen Gegenstand vor dem Pingponger. Miss die Entfernung zum Ziel, indem Du ein Stück Karton an die Position des Ziels hältst und auf die Schaltfläche 'Abstand messen' klickst. Entferne dann den Karton, lege den Ball in die Klaue und klicke auf die Schaltfläche 'Ball werfen'. Der Roboter verwendet das gelernte lineare Regressionsmodell, um die benötigte Motorleistung für diese Entfernung vorherzusagen."
+    },
+    "step4": {
+      "heading": "4. Ausprobieren",
+      "paragraph1": "Experimentiere mit verschiedenen Entfernungen und beobachte, wie sich die vorhergesagte Motorleistung ändert. Füge weitere Datenpunkte hinzu, um zu sehen, wie sich dies auf die Genauigkeit der linearen Regressionsgerade auswirkt. Du kannst auch die Funktion 'Beste Parameter ausrechnen' verwenden, um die Steigung und den Achsenabschnitt der gelernten linearen Beziehung anzuzeigen."
+    }
+  },
+  "CrawlerInstructions": {
+    "paragraph1": "In diesem Experiment wirst Du einen krabbelnden Roboter mithilfe von Reinforcement Learning steuern.",
+    "paragraph2": "Du kannst unserem [Video](https://www.youtube.com/watch/tuYZL71suyY) und Deinen Krabbler Schritt für Schritt mit uns bauen, oder den Roboter selbständig anhand der folgenden Anleitung erstellen.",
+
+    "step1": {
+      "heading": "1. Zusammenbau",
+      "paragraph1": "Baue zuerst den Krabbler anhand [dieser Anleitung](/ml-with-bricks/materials/$t(localeCode)/assembly/crawler.pdf) zusammen. Stelle sicher, dass die Motoren und der Abstandssensor an den korrekten Anschlüssen des Hubs angeschlossen sind.",
+      "warning": "Achte darauf, dass sich alle Motoren in ihrer Nullposition befinden, wenn der Arm vollständig ausgefahren ist, wie in der Anleitung gezeigt. Andernfalls könntest Du Deine Motoren beschädigen.",
+      "paragraph2": "$t(FruitPredictorInstructions.step1.paragraph2)"
+    },
+    "step2": {
+      "heading":"2. Algorithm",
+      "paragraph1": "Der Krabbler verwendet Reinforcement Learning, um selbstständig Kriechen zu erlernen. Zur Vereinfachung hat der Krabbler nur vier Armpositionen, wie im Diagramm unten dargestellt. Der Roboter bestimmt die nächste Armposition anhand der jetzigen Armposition.",
+      "paragraph2": "Um den besten Zug auszuwählen, muss der Krabbler zunächst verstehen, wie effektiv jeder Übergang zwischen den verschiedenen Armpositionen ist, um unser Ziel \u2013 so weit wie möglich zu kriechen \u2013 zu erreichen. Um den Erfolg der einzelnen Züge zu bewerten, messen wir die jeweils gekrochene Distanz über einen Zug.",
+      "paragraph3": "Wir erstellen eine 'Entscheidungstabelle' (siehe unten), in der die Zeilen die aktuelle Armposition und die Spalten die nächsten möglichen Armpositionen darstellen. Jede Zelle in dieser Tabelle enthält einen Wert, der angibt, wie effektiv ein Übergang von der Armposition der Zeile zur Armposition der Spalte ist. Anfangs sind diese Werte unbekannt, daher ist die Tabelle mit Nullen gefüllt und wird während des Trainings mit gelernten Werten aktualisiert.",
+      "paragraph4": "Um diese Werte zu lernen, positionieren wir den Krabbler etwa eine Armlänge vor einer Wand (mit Abstandssensor zur Wand hingerichtet). Starte den Code, indem Du auf die entsprechende Schaltfläche auf der Webplattform klickst, stelle den Erkundungsparameter auf 'hoch' und klicke auf die Schaltfläche 'Play'. Eine hohe Erkundungseinstellung bewirkt, dass der Krabbler in 80 % der Fälle eine zufällige Bewegung anstelle der besten bekannten Aktion wählt. Dies fördert das Lernen und verhindert, dass der Krabbler bei einer suboptimalen Bewegung stecken bleibt. Nachdem der Krabbler gelernt hat, welche Distanz er mit jedem Übergang kriecht, ändere den Erkundungsparameter auf 'keine'. Der Krabbler kriecht nun einfach, indem er die Aktion auswählt, die die größte gekrochene Distanz ergibt.",
+      "paragraph5": "Um genaue Messungen zu gewährleisten, stoppt der Krabbler das Training, wenn er sich zu nah oder zu weit von der Wand entfernt befindet. Um das Training fortzusetzen, positioniere den Roboter einfach in etwa einer Armlänge Entfernung zur Wand und klicke erneut auf die Schaltfläche 'Play'.",
+      "warning1": "Stelle sicher, dass sich während des Trainings keine Objekte zwischen der Wand und dem Abstandssensor befinden, um korrekte Messungen zu gewährleisten.",
+      "warning2": "Um genaue Messungen zu gewährleisten, stoppt der Krabbler das Training, wenn er sich zu nah oder zu weit von der Wand entfernt befindet. Um das Training fortzusetzen, positioniere den Roboter einfach ca. eine Armlänge vor der Wand und klicke erneut auf die Schaltfläche 'Play'."
+    },
+    "step3": {
+      "heading": "3. Dinge, die Du ausprobieren kannst",
+      "paragraph1": "Versuche, das Experiment zurückzusetzen und das Training zu wiederholen, wobei Du nun 'Voraussicht' aktivierst. In diesem Fall berücksichtigt der Krabbler auch zukünftige Belohnungen, indem er den maximalen Wert aus der Zeile, zu der er sich bewegt (dem nächsten Zustand), zur unmittelbar gekrochenen Distanz (der kurzfristigen Belohnung) hinzufügt. Wie haben sich die Entscheidungstabelle und die Bewegungen des Krabblers verändert?"
+    }
+  },
+  "Troubleshooting": {
+    "title": "Troubleshooting",
+    "paragraph": "Auf dieser Seite findest Du Tipps, wie Du Probleme im Zusammenhang mit der Interaktion mit Deinem LEGO® Hub auf der Website lösen kannst. Wenn Du auf einen Fall stößt, der hier nicht behandelt wird, kontaktiere mich bitte per Mail: [viacheslav.sydora@tuebingen.mpg.de](mailto:viacheslav.sydora@tuebingen.mpg.de).",
+    "question1": {
+      "question": "Es wird angezeigt, dass mein Browser Bluetooth nicht unterstützt. Warum?",
+      "paragraph1": "Leider ist Bluetooth immer noch eine experimentelle API und nicht in allen Browsern verfügbar. Unserer Erfahrung nach wird diese API von Chromium-basierten Browsern wie Google Chrome und Chromium sowie von Microsoft Edge unterstützt. Wir empfehlen, einen dieser Browser zu verwenden."
+    },
+    "question2": {
+      "question": "Ich habe einen Chromium-basierten Browser oder Microsoft Edge, aber es funktioniert immer noch nicht. Warum?",
+      "paragraph1": "Dies kann besonders wichtig sein, wenn Du Linux verwendest. Stell zunächst sicher, dass Bluetooth sowohl auf der Hardware- als auch auf der Softwareebene aktiviert ist. Wenn Du einen Chromium-basierten Browser verwendest, versuch, die folgenden Adressen in die Adressleiste Ihres Browsers einzugeben und die aufgeführten Flags zu aktivieren: \n~~~js\nchrome://flags/#enable-experimental-web-platform-features\n~~~\n, \n~~~js\nchrome://flags/#enable-web-bluetooth-new-permissions-backend\n~~~\n und \n~~~js\nchrome://flags/#enable-web-bluetooth-confirm-pairing-support\n~~~\n."
+    }
+  },
+  "legoDisclaimer": "LEGO ist eine Marke der LEGO Gruppe, die diese Webseite weder sponsert, autorisiert noch unterstützt.",
+  "seo_title": "Maschinelles Lernen mit LEGO® Bausteinen",
+  "seo_description": "Entdecke maschinelles Lernen mit dem LEGO® Education SPIKE™ Prime Set. Absolviere praktische Experimente, um Grundlagen wie k-nächste Nachbarn, lineare Regression und Q-Learning interaktiv zu meistern.",
+  "localeCode": "de",
+  "language": "Sprache"
+}
