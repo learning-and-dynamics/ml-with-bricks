@@ -1,0 +1,390 @@
+{
+  "WebsiteName": {
+    "ml": "Machine Learning",
+    "with_lego": "with LEGO® Bricks"
+  },
+  "Navigation": {
+    "experiments": "Experiments 💡",
+    "materials": "Materials 📚",
+    "imprint": "Imprint ℹ️",
+    "privacyPolicy": "Privacy Policy 👤",
+    "troubleshooting": "Troubleshooting 🚧"
+  },
+  "Experiments": {
+    "fruit-predictor": {
+      "title": "Automatic fruit detector",
+      "description": "Predict a fruit based on its length and color using K-nearest neighbors!"
+    },
+    "pitcher": {
+      "title": "Pitcher",
+      "description": "Build a robot that always hits the target with help of linear regression!"
+    },
+    "crawler": {
+      "title": "Crawler",
+      "description": "Empower a self-learning crawler with q-learning!"
+    }
+  
+  },
+  "FruitPredictor": {
+    "title": "$t(Experiments.fruit-predictor.title)",
+    "description": "Predict a fruit using its length and color!",
+    "yAxisTitle": "Length \u00A0 [cm]",
+    "xAxisTitle": "Color",
+    "showDecisionBorder": "Show decision border: ",
+    "hideInfer": "Hide prediction datapoint: ",
+    "controlsTitle": "Controls",
+    "dataTitle": "Data",
+    "fruitLabels": {
+      "banana": "Banana",
+      "apple": "Apple"
+    },
+    "delete": "Delete",
+    "label": "Label",
+    "modelModes": {
+      "train": "Training",
+      "infer": "Prediction"
+    },
+    "selectClass": "Current class:",
+    "toasts": {
+      "codeStarted": "Program started!"
+    }
+  },
+  "PingPonger": {
+    "title": "$t(Experiments.pitcher.title)",
+    "description": "Build a robot that always hits the target!",
+    "modelModes": {
+      "train": "Training",
+      "infer": "Prediction"
+    },
+    "hideInfer": "Hide prediction datapoint: ",
+    "yAxisTitle": "Motor speed \u00A0 [%]",
+    "xAxisTitle": "Distance \u00A0 [cm]",
+    "delete": "Delete",
+    "sendNewPower": "Update motor speed",
+    "power": "Motor speed",
+    "calculateBest": "Calculate best parameters",
+    "linearRegression": "Linear Regression",
+    "latex": {
+      "eachPoint": "each\\:Point",
+      "lineEquation": "line\\:equation",
+      "real": "real"
+    },
+    "parameters": {
+      "slope": "Slope",
+      "intercept": "Intercept"
+    },
+    "launch": "Pitch ball",
+    "measure": "Measure distance",
+    "toasts": {
+      "min2Points": "You need at least 2 data points.",
+      "codeStarted": "Code started!"
+    },
+    "loss": "LOSS"
+  },
+  "Crawler": {
+    "title": "$t(Experiments.crawler.title)",
+    "description": "Build a self-learning crawler!",
+    "modes": {
+      "automatic": "Automatic",
+      "semiAutomatic": "Semiautomatic",
+      "manual": "Manual"
+    },
+    "modeLabel": "Wait before next move",
+    "explorations": {
+      "no": "no",
+      "low": "low",
+      "high": "high"
+    },
+    "explorationLabel": "Exploration",
+    "table": {
+      "rowsHeader": "Current State",
+      "columnsHeader": "Next State"
+    },
+    "actionType": {
+      "exploitation": "Exploitation",
+      "exploration": "Exploration"
+    },
+    "actionTypeLabel": "Mode",
+    "thinkFutureLabel": "Foresight",
+    "controls": "Controls",
+    "actionQualityTable": "Decision table",
+    "rewardDiagram": "Reward diagram",
+    "toasts": {
+      "codeStarted": "Code started!",
+      "tooClose": "The crawler is too close to the wall. Please reposition it and click continue to proceed.",
+      "tooFar": "The crawler is too far from the wall. Please reposition it and click continue to proceed."
+    }
+  },
+  "HubInteraction": {
+    "portState": {
+      "closed": "Connect hub",
+      "open": "Disconnect hub",
+      "opening": "Connecting...",
+      "closing": "Disconnecting..."
+    },
+    "launchCode": "Start program",
+    "stopCode": "Stop program",
+    "reboot": "Reboot hub",
+    "troubleshooting": "It seems that your browser does not support bluetooth connection. Please refer to our [troubleshooting page](/ml-with-bricks/#/troubleshooting)."
+  },
+  "video": "video",
+  "pdf": "PDF",
+  "these instructions": "these instructions",
+  "FruitPredictorInstructions": {
+    "paragraph1": "You will learn how to build a simple classification device that can distinguish between apples and bananas. It uses color and length as features, processed by the K-nearest neighbor algorithm to distinguish between the two types of fruits.",
+    "paragraph2": "You can follow our experiment [video](https://youtu.be/G8OpubRhUhU) and build the device step by step with us, or do it yourself using the instructions below.",
+    "step1": {
+      "heading": "1. Assembly",
+      "paragraph1": "First, assemble the device using [these instructions](/ml-with-bricks/materials/$t(localeCode)/assembly/fruit-predictor.pdf). Ensure all sensors are connected to the correct ports on the hub.",
+      "paragraph2": "Then, connect your hub either using the [PDF](/ml-with-bricks/materials/$t(localeCode)/connection.pdf) or [video](https://youtu.be/ZsviP40PnuA) instructions."
+    },
+    "step2": {
+      "heading": "2. Data Collection",
+      "paragraph1": "After connecting the hub to the web platform, start the code and wait for the code start confirmation to pop up. Gather at least four apples and four bananas. Take three of each and collect their color and length data. For each fruit, bring it to the color sensor and click the right button on the hub to record its color. Then, place the same fruit into the robot's claw, close it, and remove the fruit. After removing, click the left button on the hub to measure its length. You will see data points appearing in the diagram, with fruit length on the Y-axis and a color spectrum (from red to yellow) on the X-axis."
+    },
+    "step3": {
+      "heading": "3. Prediction",
+      "paragraph1": "Switch the model mode to 'Prediction'. New fruits are classified using the K-nearest neighbors algorithm. The algorithm calculates the distances to all existing data points. Then, it selects the 'K' (default is three) nearest neighbors and performs a vote. If the majority of these neighbors are apples, the new fruit is predicted as an apple, and vice versa for bananas.",
+      "paragraph2": "To test the model, measure the length and color of a new fruit as you did during training. The predicted fruit type will be displayed on the Hub, and a new data point will appear in the diagram. Lines will connect this new point to the nearest neighbors that participated in the voting process."
+    },
+    "step4": {
+      "heading": "4. Things to Try",
+      "paragraph1": "Try turning the 'decision border' visualization on. This will show areas where a new fruit is predicted as either an apple (in one color) or a banana (in another color) based on its features. Experiment with increasing the number of neighbors ('K') participating in the vote and observe how the decision boundary changes."
+    }
+   },
+  "Settings": {
+    "title": "Settings",
+    "bigMotorPort": "Port of the big motor",
+    "smallMotorPort": "Port of the small motor",
+    "leftMotorPort": "Port of the left motor",
+    "rightMotorPort": "Port of the right motor",
+    "distanceSensorPort": "Port of the distance sensor",
+    "colorSensorPort": "Port of the color sensor",
+    "isReversed": "Is the movement reversed?",
+    "bigMotorSpeed": "Speed of the big motor",
+    "smallMotorSpeed": "Speed of the small motor"
+  },
+  "Imprint": {
+    "title": "Imprint",
+    "contact": {
+      "heading": "Contact",
+      "email":"**E-Mail**: [viacheslav.sydora@tuebingen.mpg.de](mailto:viacheslav.sydora@tuebingen.mpg.de)",
+      "phone": "**Phone number**: +49 174 781 7599"
+    },
+    "euDisputeResolution": {
+      "heading": "EU Dispute Resolution",
+      "paragraph1": "The European Commission provides a [platform for online dispute resolution (OS)](https://ec.europa.eu/consumers/odr/). You can find our email address in the imprint above."
+    },
+    "consumerDisputeResolution": {
+      "heading": "Consumer Dispute Resolution/Universal Conciliation Board",
+      "paragraph1": "We are not willing or obliged to participate in dispute resolution proceedings before a consumer conciliation board."
+    }
+  },
+  "PrivacyPolicy": {
+      "title": "Privacy Policy",
+      "effectiveDate": "Effective Date: May 30, 2025",
+      "section1": {
+        "title": "1. Data Protection at a Glance",
+        "generalNotes": {
+          "heading": "General Information",
+          "paragraph1": "The following information provides a simple overview of what happens with your personal data when you visit our website. Personal data refers to all data that can personally identify you. For detailed information on data protection, please refer to our comprehensive Privacy Policy listed below this text.",
+          "dataCollectionOnThisWebsite": "Data Collection on This Website",
+          "whoResponsible": "Who is responsible for data collection on this website?",
+          "whoResponsibleAnswer": "The data processing on this website is carried out by us as the operator of the website. Our contact details can be found in the section \"Information on the Responsible Party\" in this Privacy Policy.",
+          "howDoWeCollect": "How do we collect your data?",
+          "howDoWeCollectAnswer": "We do not collect any personal data directly from you. Our website only stores non-personal information locally in your browser (Local Storage) to enable and improve your use of the website.",
+          "whatDoWeUseDataFor": "What do we use your data for?",
+          "whatDoWeUseDataForAnswer": "The data stored locally in your browser is used exclusively for the functionality and improvement of your user experience within the website.",
+          "yourRights": "What rights do you have regarding your data?",
+          "yourRightsAnswer": "Since we do not collect or store any personal data from you, the usual data protection rights (information, rectification, deletion, etc.) refer to data processed by third parties (such as our hosting provider) or locally on your device. For details on these rights and how to exercise them, please refer to the relevant sections below."
+        }
+      },
+      "section2": {
+        "title": "2. Hosting",
+        "paragraph1": "We host our website's content with **GitHub, Inc.**, located at 88 Colin P. Kelly Jr. Street, San Francisco, California, 94107.",
+        "paragraph2": "When you use our website, **GitHub Inc.** collects certain information. [According to GitHub](https://docs.github.com/pages/getting-started-with-github-pages/what-is-github-pages#data-collection), your **IP address is logged and stored for security purposes.** This is a standard practice for most hosting services.",
+        "paragraph3": "For more detailed information regarding GitHub's data collection practices, please refer to [GitHub's Privacy Policy](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).",
+        "paragraph4": "GitHub's collection of this data falls within the scope of providing their hosting service, which is considered a legitimate interest of the hosting provider (Art. 6 para. 1 lit. f GDPR).",
+        "dataTransfer": {
+          "heading": "International Data Transfers",
+          "paragraph1": "**GitHub Inc.** stores and processes Personal Data in a variety of locations, including your local region, the United States, and other countries where **GitHub Inc.**, its affiliates, subsidiaries, or subprocessors have operations. **GitHub Inc.** transfers Personal Data from the European Union, the United Kingdom, and Switzerland to countries that the European Commission has not recognized as having an adequate level of data protection. When **GitHub Inc.** engages in such transfers, **they** generally rely on the standard contractual clauses published by the European Commission under Commission Implementing Decision 2021/914, to help protect your rights and enable these protections to travel with your data. To learn more about the European Commission’s decisions on the adequacy of the protection of personal data in the countries where **GitHub Inc.** processes personal data, see this article on the [European Commission website](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en)."
+        }
+      },
+      "section3": {
+        "title": "3. General Information and Mandatory Disclosures",
+        "dataProtection": {
+          "heading": "Data Protection",
+          "paragraph1": "We as the operator of this website take the protection of your data seriously. Our website is designed to be as data-minimizing as possible."
+        },
+        "responsibleParty": {
+          "heading": "Information on the Responsible Party",
+          "country": "Germany",
+          "paragraph1": "The responsible party for data processing in connection with this website is:",
+          "email": "**E-Mail**: [viacheslav.sydora@tuebingen.mpg.de](mailto:viacheslav.sydora@tuebingen.mpg.de)",
+          "paragraph2": "The responsible party is the natural or legal person who alone or jointly with others decides on the purposes and means of processing personal data."
+        },
+        "dataRetention": {
+          "heading": "Data Retention Period",
+          "paragraph1": "Since we do not directly collect any personal data from you, there is no retention period for such data by us. Data collected by GitHub as part of hosting is subject to GitHub's retention policies. You can delete data stored locally in your browser yourself at any time."
+        },
+        "legalBasis": {
+          "heading": "General Information on the Legal Basis for Data Processing on This Website",
+          "paragraph1": "Since we do not directly collect any personal data, the classical legal bases of the GDPR (Art. 6 para. 1 lit. a, b, c, f GDPR and Art. 9 para. 2 lit. a GDPR) are not directly applicable to our website, as no corresponding data processing is carried out by us.",
+          "paragraph2": "Data collected by GitHub as part of hosting (e.g., IP addresses) is based on GitHub's **legitimate interest** (Art. 6 para. 1 lit. f GDPR) in ensuring the operation and security of its services.",
+          "paragraph3": "The storage of data in your **Local Storage** occurs exclusively on your device and is based on the **technical necessity** to provide the functionality of our website."
+        },
+        "sslEncryption": {
+          "heading": "SSL/TLS Encryption",
+          "paragraph1": "This website uses SSL/TLS encryption for security reasons and to protect the transmission of confidential content. You can recognize an encrypted connection by the address bar of the browser changing from \"http://\" to \"https://\" and by the lock symbol in your browser's address bar. When SSL/TLS encryption is activated, the data you transmit to the website cannot be read by third parties."
+        }
+      },
+      "section4": {
+        "title": "4. Data Collection on This Website",
+        "cookiesLocalStorage": {
+          "heading": "Cookies and Local Storage",
+          "paragraph1": "Our website does not use cookies in the traditional sense for tracking or analyzing user behavior. However, we do use your web browser's **Local Storage**, which has a similar function to persistent cookies, but for our purposes:",
+          "listItem1": "**Saving Experiment Progress:** Your progress in experiments is stored locally in your browser. This allows you to resume using the website later without losing your progress.",
+          "listItem2": "**Saving Preferred Language:** Your selected language (e.g., via 'i18next') is also stored locally so that the website is displayed directly in the correct language on your next visit.",
+          "importantInfo": "Important information about Local Storage:",
+          "listItem3": "**No Personal Data:** The data stored in Local Storage is **not personal.** It cannot identify you in any way.",
+          "listItem4": "**Only on Your Device:** This data is stored exclusively in your web browser on your own device. **It is never sent to us, GitHub, or any third party.**",
+          "listItem5": "**User Control:** You have full control over this data. You can view, edit, or delete it at any time via your web browser's settings (usually found in the \"Developer Tools\" or \"Privacy & Security\" sections). Clearing your browser's data or cache will remove this information.",
+          "paragraph2": "Since this data is stored exclusively for the functionality of the website on your device and is not personal data, we do not require separate consent for this under the GDPR or TTDSG."
+        }
+      },
+      "section5": {
+        "title": "5. Links to External Websites",
+        "paragraph1": "Our website may contain links to external websites that are not operated by us. Please be aware that we have no control over the content or privacy practices of these third-party sites. We therefore assume no liability for these external contents.",
+        "paragraph2": "When you click on an external link, you will be directed to that third party's website. We strongly advise you to review the Privacy Policy and terms of any site you visit. **Please note that some of these external websites may be operated by providers outside the European Union (EU) or European Economic Area (EEA), which could result in your data being transferred to countries with different data protection standards.** The data protection regulations of these external websites may differ from our own. We are not responsible for their content, security, or data collection practices."
+      },
+      "section6": {
+        "title": "6. Your Rights",
+        "paragraph1": "Although we do not directly collect any personal data ourselves, you have certain rights regarding the data collected by GitHub or stored locally in your browser:",
+        "rightToInformation": {
+          "heading": "Right to Information",
+          "paragraph1": "You have the right to receive information at any time about the data stored by GitHub concerning your IP address (according to GitHub's privacy policy) or to view the data stored locally in your browser."
+        },
+        "rightToRectificationDeletion": {
+          "heading": "Right to Rectification and Deletion",
+          "paragraph1": "You can change or delete the data stored locally in your browser yourself at any time via your browser settings. Regarding data collected by GitHub, please contact GitHub directly."
+        },
+        "rightToObject": {
+          "heading": "Right to Object",
+          "paragraph1": "Since we do not process any personal data, there is no direct right to object to data processing for our website. Regarding data processing by GitHub, please refer to their privacy policy."
+        },
+        "rightToComplain": {
+          "heading": "Right to Lodge a Complaint with the Competent Supervisory Authority",
+          "paragraph1": "In case of violations of the GDPR, data subjects have the right to lodge a complaint with a supervisory authority, in particular in the Member State of their habitual residence, their place of work or the place of the alleged infringement. The right to complain exists without prejudice to any other administrative or judicial remedies.",
+          "competentAuthority": "The competent authority for us in Germany is:",
+          "authorityDetails": {
+            "name": "Landesbeauftragter für den Datenschutz und die Informationsfreiheit Baden-Württemberg",
+            "address": "Lautenschlagerstraße 20",
+            "plzCity": "70173 Stuttgart",
+            "country": "Germany",
+            "email": "**E-Mail:** [poststelle@lfdi.bwl.de](mailto:poststelle@lfdi.bwl.de)"
+          }
+        },
+        "paragraph2": "**To exercise your rights or for further questions regarding data protection, you can contact us at any time using the contact details provided in the section \"Information on the Responsible Party\".**"
+      },
+      "section7": {
+        "title": "7. Changes to This Privacy Policy",
+        "paragraph1": "We reserve the right to adapt this Privacy Policy if the legal situation changes or if we modify our website. The current version can always be found on this page."
+      }
+    },
+  "Home": {
+    "title": "Hands-on Machine Learning with LEGO® SPIKE",
+    "paragraph1": "This website is an interactive web-platform designed to teach the fundamentals of machine learning interactively using the [LEGO® Education SPIKE™ Prime Set](https://www.lego.com/product/lego-education-spike-prime-set-45678). You will find different experiments below that teach basic algorithms such as k-nearest neighbors, linear regression and reinforcement learning. All you need is a device with browser that both support Bluetooth connection. The course material (pdf slides) and corresponding video recordings are attached below.",
+    "paragraph2": "This course was developed by [Viacheslav Sydora](https://www.linkedin.com/in/viacheslav-sydora/), [Guner Dilsad Er](https://guner-dilsad-er.github.io/) and [Michael Muehlebach](https://sites.google.com/view/mmuehlebach/) ([Max Planck Institute for Intelligent Systems](https://is.mpg.de/)) in collaboration with [KI-Makerspace](https://ki-maker.space/). It is designed for young adults at the age of 13-17 years.",
+    "experiments": {
+      "heading": "Experiments",
+      "paragraph": "The experiments teach supervised learning (classification and regression), as well as reinforcement learning in an intuitive and accessible way."
+    },
+    "troubleshooting": {
+      "heading": "Troubleshooting",
+      "paragraph": "If you encounter any technical problems, check out our [troubleshooting page](/ml-with-bricks/#/troubleshooting) or reach us under this email adress: [viacheslav.sydora@tuebingen.mpg.de](mailto:viacheslav.sydora@tuebingen.mpg.de)."
+    },
+    "courseRecording": {
+      "heading": "Course Recording",
+      "paragraph": "All instructions are detailed on the corresponding experiment pages. We also provide the entire course recordings on YouTube:",
+      "watch": "Watch on YouTube"
+    },
+    "courseMaterials": {
+      "heading": "Course Materials",
+      "paragraph": "We encourage teachers to use our course with help of our materials and web-interface. The course materials are available in [German](/ml-with-bricks/materials/de/presentation.pdf) and [English](/ml-with-bricks/materials/en/presentation.pdf)."
+    },
+    "developers": {
+      "heading": "For Developers",
+      "paragraph": "The source code of this webpage is published in the following [GitHub Repository](https://github.com/learning-and-dynamics/ml-with-bricks). If you are a developer who seeks to connect the LEGO® Hub to a website using Bluetooth Low Energy (BLE), we created a [boilerplate](https://github.com/slavasg-lab/lego-spikeprime-ble-boilerplate) for you!"
+    }
+  },
+  "PitcherInstructions": {
+    "paragraph1": "In this experiment, you will build a robot 'Pitcher' that learns to always hit a target. We will use linear regression to learn the motor power needed to successfully hit the target.",
+    "paragraph2": "You can follow our experiment [video](https://youtu.be/P_t-HRxQ80s) and build Pitcher step by step with us, or do it yourself using the instructions below.",
+    
+    "step1": {
+      "heading": "1. Assembly",
+      "paragraph1": "First, assemble the Pitcher robot using [these instructions](/ml-with-bricks/materials/$t(localeCode)/assembly/pitcher.pdf). Ensure the motors and the distance sensor are connected to the correct ports on the hub.",
+      "paragraph2": "$t(FruitPredictorInstructions.step1.paragraph2)"
+    },
+    "step2": {
+      "heading": "2. Data Collection",
+      "paragraph1": "After connecting the hub and starting the code, it is time to collect data. Place the Pitcher at a fixed launching position. Place a ball in the holder and ensure that the serving arm is always at the 12 o'clock position, as this enables consistent launches with sufficient acceleration time. In the web interface, start by setting the motor power to 20% (remember to click on 'Update motor speed' for changes to take effect). Click the 'Launch ball' button on the web platform to throw the ball. Observe where the ball lands. Hold a piece of cardboard at the point where the ball landed. The cardboard allows the distance sensor on the robot to reflect an ultrasonic signal and measure the distance the ball traveled. Click the 'Measure distance' button on the web platform to record this distance while holding the cardboard. The measured distance and the motor power used will be displayed in the web interface. Repeat these steps, trying different motor power values (e.g., 40%, 60%, 80%, up to 100%) for each launch."
+    },
+    "step3": {
+      "heading": "3. Prediction",
+      "paragraph1": "Notice that the observed data points roughly form a straight line. This suggests a linear relationship between motor speed and distance travelled by the ball. For predicting the required motor speed to hit a target at a specific distance, the pitcher will use a machine learning technique called linear regression.",
+      "paragraph2": "Linear regression is a method that finds the straight line that best represents the relationship between two variables \u2013 in our case, the distance to where the ball lands and the motor speed used to launch it.",
+      "paragraph3": "To understand how well a line fits the data, we use a term called 'loss'. The loss represents the error between the line and the actual data points. For example, a simple way to calculate loss is to sum up the vertical distances between the regression line and each individual data point. A smaller loss value indicates a better-fitting line.",
+      "paragraph4": "To find the best-fitting line, we need to minimize this loss. We can do this by adjusting the line's position, which is controlled by its intercept (where the line crosses the Y-axis) and its slope (the line's steepness).",
+      "paragraph5": "You can experiment with this yourself by switching the model mode to 'Prediction'. In this mode, you can manually adjust the slope and intercept parameters to try and minimize the loss visually on the graph. To see the parameters that the algorithm calculates as the best fit for your data, click the 'Calculate best parameters' button.",
+      "paragraph6": "For hitting a target, switch to 'Prediction' mode, and place the target at a resonable distance in front of the pitcher. Measure the distance to the target by holding a piece of cardboard at the target's location and clicking the 'Measure distance' button. Then, remove the cardboard, place the ball into the claw, and click the 'Launch ball' button. The robot will use the learned linear regression model to predict the motor speed needed to reach that distance."
+    },
+    "step4": {
+      "heading": "4. Things to Try",
+      "paragraph1": "Experiment with different distances and observe how the predicted motor power changes. Try adding more data points to see how it affects the accuracy of the linear regression line. You can also explore the 'Calculate Best Parameters' function to see the slope and intercept of the learned linear relationship."
+    }
+  },
+  "CrawlerInstructions": {
+    "paragraph1": "In this experiment, you will empower a crawling robot with reinforcement learning.",
+    "paragraph2": "You can follow our experiment [video](https://www.youtube.com/watch/tuYZL71suyY) and build your crawler step by step with us, or do it yourself using the instructions below.",
+
+    "step1": {
+      "heading": "1. Assembly",
+      "paragraph1": "First, assemble the crawler robot using [these instructions](/ml-with-bricks/materials/$t(localeCode)/assembly/crawler.pdf). Ensure the motors and the distance sensor are connected to the correct ports on the hub.",
+      "warning": "Make sure all motors are in their zero positions when the arm is fully extended as shown in the instructions. Otherwise, you could damage your motors.",
+      "paragraph2": "$t(FruitPredictorInstructions.step1.paragraph2)"
+    },
+    "step2": {
+      "heading":"2. Algorithm",
+      "paragraph1": "The crawler will use reinforcement learning to learn how to crawl. To simplify the learning task, the crawler has only four arm positions, as shown in the diagram below. For achieving a crawling motion, the robot will determine the best next arm position to move to from its current arm position.",
+      "paragraph2": "To that extent, the crawler first needs to understand how effective each transition between arm positions is. Our goal is to crawl as far as possible, hence we measure the crawled distance to evaluate the performance of each transition towards achieving our goal.",
+      "paragraph3": "We create a 'Decision table' where the rows represent the current arm position and the columns represent the next possible arm positions. Each cell in this table contains a value indicating how good a transition is from the row's state to the column's state. Initially, these values are unknown, so the table is filled with zeros and will be updated with learned values during training.",
+      "paragraph4": "To learn these values, position the crawler with its distance sensor facing a wall at approximately one elbow's length away. Start the code by clicking the corresponding button on the web platform, set the exploration parameter to 'high', and click the 'play' button. A high exploration setting makes the crawler select a random movement in 80% of cases instead of always choosing the best known action. This encourages learning and prevents the crawler from getting stuck with a suboptimal movement. After the crawler has learned the distance it crawls with each transition, change the exploration parameter to 'none'. The crawler will now simply crawl by selecting the action that results in the greatest crawled distance.",
+      "paragraph5": "To ensure accurate measurements, the crawler will stop training if it is too close or too far from the wall. To continue training, simply reposition the crawler at approximately one elbow's length from the wall and click the 'play' button again.",
+      "warning1": "Make sure there are no objects between the wall and the distance sensor during training to ensure correct measurements.",
+      "warning2": "To ensure accurate measurements, the crawler will stop training if the robot is too close or too far from the wall. To continue training, simply reposition it at roughly one elbow length to the wall and click the play button again."
+    },
+    "step3": {
+      "heading": "3. Things to try",
+      "paragraph1": "Try resetting the experiment and repeating the training with 'Foresight' turned on. In this case, the crawler will also consider future rewards by adding the maximum value from the row it moves to (the next state) to the immediate crawled distance (the short-term reward). How did the decision table and the crawler's movements change?"
+    }
+  },
+  "Troubleshooting": {
+    "title": "Troubleshooting",
+    "paragraph": "This page provides tips on how to resolve issues related to interacting with your LEGO® hub on the website. If you encounter a case that is not covered here, please email me at: [viacheslav.sydora@tuebingen.mpg.de](mailto:viacheslav.sydora@tuebingen.mpg.de).",
+    "question1": {
+      "question": "It says my browser does not support Bluetooth. Why?",
+      "paragraph1": "Unfortunately, Bluetooth remains an experimental API and is not available in all browsers. Based on our experience, this API is supported by Chromium-based browsers, such as Google Chrome and Chromium, as well as Microsoft Edge. We recommend using one of these browsers."
+    },
+    "question2": {
+      "question": "I have a chromium-based browser or Microsoft Edge, but it still does not work. Why?",
+      "paragraph1": "This may be particularly relevant if you use Linux. First, make sure that Bluetooth is turned on at both the hardware and software levels. If it didn't help and you are using a chromium-based browser, try entering the following addresses into your browser's address bar, and enabling the listed flags: \n~~~js\nchrome://flags/#enable-experimental-web-platform-features\n~~~\n, \n~~~js\nchrome://flags/#enable-web-bluetooth-new-permissions-backend\n~~~\n and \n~~~js\nchrome://flags/#enable-web-bluetooth-confirm-pairing-support\n~~~\n."
+    }
+  },
+  "legoDisclaimer": "LEGO is a trademark of the LEGO Group, which does not sponsor, authorize or endorse this web site.",
+  "seo_title": "Machine Learning with LEGO® Bricks",
+  "seo_description": "Unlock machine learning with LEGO® Education SPIKE™ Prime kit. Engage in hands-on experiments to master k-nearest neighbors, linear regression, and Q-learning fundamentals interactively.",
+  "localeCode": "en",
+  "language": "Language"
+  
+}
