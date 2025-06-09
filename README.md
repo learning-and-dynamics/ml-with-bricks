@@ -3,7 +3,7 @@
 > An interactive web platform for learning machine learning concepts through hands-on experimentation with LEGO® SPIKE Prime Hub
 
 [![Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue)](https://learning-and-dynamics.github.io/ml-with-bricks/)
-[![Course](https://img.shields.io/badge/YouTube-Video%20Course-red)](https://www.youtube.com/playlist?list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J)
+[![Course](https://img.shields.io/badge/YouTube-Video%20Course-red)](https://www.youtube.com/watch?v=yPgb-fCM7vc&list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J&index=1)
 
 ## 🎯 Overview
 
@@ -42,7 +42,7 @@ The application will be available at `http://localhost:5173`
 ## 📚 Learning Resources
 
 - **🌐 Interactive Platform**: Follow the step-by-step instructions directly on the website
-- **📺 Video Course**: Comprehensive [YouTube playlist](https://www.youtube.com/playlist?list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J) with detailed explanations
+- **📺 Video Course**: Comprehensive [YouTube playlist](https://www.youtube.com/watch?v=yPgb-fCM7vc&list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J&index=1) with detailed explanations
 - **🔧 Bluetooth Low Energy (BLE) Boilerplate**: Want to build your own LEGO® SPIKE web integration? Check out our [SPIKE Prime BLE boilerplate](https://github.com/slavasg-lab/lego-spikeprime-ble-boilerplate)
 
 ## 👥 Credits
@@ -76,6 +76,6 @@ LEGO® and SPIKE™ are registered trademarks of the LEGO Group, which does not 
 <div align="center">
 
 **Ready to revolutionize your machine learning journey?**  
-[🚀 Try the Platform](https://learning-and-dynamics.github.io/ml-with-bricks/) | [📺 Watch Course](https://www.youtube.com/playlist?list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J) | [⭐ Star this Repo](https://github.com/learning-and-dynamics/ml-with-bricks)
+[🚀 Try the Platform](https://learning-and-dynamics.github.io/ml-with-bricks/) | [📺 Watch Course](https://www.youtube.com/watch?v=yPgb-fCM7vc&list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J&index=1) | [⭐ Star this Repo](https://github.com/learning-and-dynamics/ml-with-bricks)
 
 </div>
