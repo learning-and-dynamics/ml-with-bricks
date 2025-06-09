@@ -9,7 +9,7 @@ const PlaylistLink = () => {
   return (
     <Wrapper
       href={
-        "https://www.youtube.com/playlist?list=PLaA3pdUzmaV-oJ0QABOJssZ5MxFRIY_hu"
+        "https://www.youtube.com/playlist?list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J"
       }
       target="_blank"
     >

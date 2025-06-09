@@ -26,18 +26,6 @@ const MaterialsPage = () => {
         </li>
       </BulletList>
       <Typography.Text $bold>{t("Materials.CoursePlaylist")}: </Typography.Text>
-      {/* <div style={{ flex: 1, aspectRatio: "16/9" }}>
-        <iframe
-          style={{ borderWidth: 0 }}
-          width="100%"
-          height="100%"
-          src="https://www.youtube-nocookie.com/embed/videoseries?si=o9tvPwSMyEbBw9rm&list=PLaA3pdUzmaV-oJ0QABOJssZ5MxFRIY_hu"
-          title={t("Materials.CoursePlaylistTitle")}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
-      </div> */}
       <PlaylistLink />
     </Wrapper>
   );
