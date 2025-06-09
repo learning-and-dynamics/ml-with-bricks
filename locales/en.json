@@ -132,11 +132,11 @@
   "these instructions": "these instructions",
   "FruitPredictorInstructions": {
     "paragraph1": "You will learn how to build a simple classification device that can distinguish between apples and bananas. It uses color and length as features, processed by the K-nearest neighbor algorithm to distinguish between the two types of fruits.",
-    "paragraph2": "You can follow our experiment [video](https://youtu.be/G8OpubRhUhU) and build the device step by step with us, or do it yourself using the instructions below.",
+    "paragraph2": "You can follow our experiment [video](https://youtu.be/BMt8hEoschE) and build the device step by step with us, or do it yourself using the instructions below.",
     "step1": {
       "heading": "1. Assembly",
       "paragraph1": "First, assemble the device using [these instructions](/ml-with-bricks/materials/$t(localeCode)/assembly/fruit-predictor.pdf). Ensure all sensors are connected to the correct ports on the hub.",
-      "paragraph2": "Then, connect your hub either using the [PDF](/ml-with-bricks/materials/$t(localeCode)/connection.pdf) or [video](https://youtu.be/ZsviP40PnuA) instructions."
+      "paragraph2": "Then, connect your hub either using the [PDF](/ml-with-bricks/materials/$t(localeCode)/connection.pdf) or [video](https://youtu.be/Gc9hZRxlds8) instructions."
     },
     "step2": {
       "heading": "2. Data Collection",
@@ -319,7 +319,7 @@
   },
   "PitcherInstructions": {
     "paragraph1": "In this experiment, you will build a robot 'Pitcher' that learns to always hit a target. We will use linear regression to learn the motor power needed to successfully hit the target.",
-    "paragraph2": "You can follow our experiment [video](https://youtu.be/P_t-HRxQ80s) and build Pitcher step by step with us, or do it yourself using the instructions below.",
+    "paragraph2": "You can follow our experiment [video](https://youtu.be/Rc7_5Koh6LQ) and build Pitcher step by step with us, or do it yourself using the instructions below.",
     
     "step1": {
       "heading": "1. Assembly",
@@ -346,7 +346,7 @@
   },
   "CrawlerInstructions": {
     "paragraph1": "In this experiment, you will empower a crawling robot with reinforcement learning.",
-    "paragraph2": "You can follow our experiment [video](https://www.youtube.com/watch/tuYZL71suyY) and build your crawler step by step with us, or do it yourself using the instructions below.",
+    "paragraph2": "You can follow our experiment [video](https://youtu.be/iI266FK65Bc) and build your crawler step by step with us, or do it yourself using the instructions below.",
 
     "step1": {
       "heading": "1. Assembly",
