@@ -119,11 +119,11 @@
   "these instructions": "diese Anleitung",
   "FruitPredictorInstructions": {
     "paragraph1": "Auf dieser Seite lernst Du, wie Du ein einfaches Klassifizierungsgerät baust, welches Äpfel und Bananen unterscheiden kann. Das Gerät verwendet Farbe und Länge als Merkmale, die vom K-Nearest Neighbor-Algorithmus verarbeitet werden, um eine Vorhersage zu treffen.",
-    "paragraph2": "Du kannst unserem [Video](https://youtu.be/BMt8hEoschE) folgen und die Experimente Schritt für Schritt mit uns durchführen oder das Klassifizierungsgerät selbständig anhang der folgenden Anleitung bauen.",
+    "paragraph2": "Du kannst unserem [Video](https://www.youtube.com/watch?v=BMt8hEoschE&list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J&index=3) folgen und die Experimente Schritt für Schritt mit uns durchführen oder das Klassifizierungsgerät selbständig anhang der folgenden Anleitung bauen.",
     "step1": {
       "heading": "1. Zusammenbau",
       "paragraph1": "Baue zuerst das Gerät anhand  [dieser Anleitung](/ml-with-bricks/materials/$t(localeCode)/assembly/fruit-predictor.pdf) zusammen. Stelle sicher, dass alle Sensoren an den korrekten Anschlüssen des Hubs angeschlossen sind.",
-      "paragraph2": "Verbinde dann Deinen Hub entweder mit der [PDF](/ml-with-bricks/materials/$t(localeCode)/connection.pdf)- oder der [Video](https://youtu.be/Gc9hZRxlds8)-Anleitung."
+      "paragraph2": "Verbinde dann Deinen Hub entweder mit der [PDF](/ml-with-bricks/materials/$t(localeCode)/connection.pdf)- oder der [Video](https://www.youtube.com/watch?v=Gc9hZRxlds8&list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J&index=2)-Anleitung."
     },
     "step2": {
       "heading": "2. Datenerfassung",
@@ -327,7 +327,7 @@
   },
   "PitcherInstructions": {
     "paragraph1": "In diesem Experiment bauen wir einen Roboter \u2013 genannt Pingponger \u2013 der lernt, immer ins Ziel zu treffen. Wir nutzen lineare Regression, um die benötigte Motorleistung aufgrund der Entfernung zum Ziel vorherzusagen.",
-    "paragraph2": "Du kannst unserem [Video](https://youtu.be/Rc7_5Koh6LQ) folgen und Deinen Pingponger Schritt für Schritt mit uns bauen, oder den Roboter selbständig anhang der folgenden Anleitung erstellen.",
+    "paragraph2": "Du kannst unserem [Video](https://www.youtube.com/watch?v=Rc7_5Koh6LQ&list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J&index=4) folgen und Deinen Pingponger Schritt für Schritt mit uns bauen, oder den Roboter selbständig anhang der folgenden Anleitung erstellen.",
     
     "step1": {
       "heading": "1. Zusammenbau",
@@ -354,7 +354,7 @@
   },
   "CrawlerInstructions": {
     "paragraph1": "In diesem Experiment wirst Du einen krabbelnden Roboter mithilfe von Reinforcement Learning steuern.",
-    "paragraph2": "Du kannst unserem [Video](https://youtu.be/iI266FK65Bc) und Deinen Krabbler Schritt für Schritt mit uns bauen, oder den Roboter selbständig anhand der folgenden Anleitung erstellen.",
+    "paragraph2": "Du kannst unserem [Video](https://www.youtube.com/watch?v=iI266FK65Bc&list=PLx1grFu4zAcwfKKJZ1Ux4LwRqaePCOA2J&index=6) und Deinen Krabbler Schritt für Schritt mit uns bauen, oder den Roboter selbständig anhand der folgenden Anleitung erstellen.",
 
     "step1": {
       "heading": "1. Zusammenbau",
