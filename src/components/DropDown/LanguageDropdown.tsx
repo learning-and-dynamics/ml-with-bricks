@@ -21,8 +21,10 @@ const LanguageDropdown = ({ width = "auto" }: Props) => {
     i18n.changeLanguage(id); // Assuming option.id matches language code
   };
 
+  const currentLng = i18n.language.split("-")[0];
+
   const currentOptionText =
-    options.find((el) => el.id === i18n.language)?.text || "";
+    options.find((el) => el.id === currentLng)?.text || "";
 
   return (
     <Wrapper width={width}>
@@ -34,7 +36,7 @@ const LanguageDropdown = ({ width = "auto" }: Props) => {
       </Header>
       <Body $open={isOpen}>
         {options
-          .filter((el) => el.id !== i18n.language)
+          .filter((el) => el.id !== currentLng)
           .map((el) => (
             <Item key={el.id} onClick={() => handleItemClick(el.id)}>
               {el.text}
