@@ -1,0 +1,129 @@
+[
+  {
+    "submission_id": "c2-pre-01",
+    "responses": {
+      "age": [
+        "u12"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "art_culture",
+        "crafts"
+      ],
+      "club_membership": [
+        "art_culture",
+        "sport"
+      ],
+      "word_associations": [
+        "maschinelles Lernen",
+        "ChatGPT",
+        "Robotik",
+        "Hilfe bei der Recherche",
+        "Bildauswertung",
+        "Bilderkennung",
+        "autonomes Fahren"
+      ],
+      "ml": 4,
+      "ml_types": 4,
+      "ml_usage": 3,
+      "ml_data_importance": 4,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 4,
+      "exploration_exploitation": 3
+    }
+  },
+  {
+    "submission_id": "c2-pre-02",
+    "responses": {
+      "age": [
+        "12-13"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "sport"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "Roboter",
+        "künstliche Intelligenz"
+      ],
+      "ml": 2,
+      "ml_types": 1,
+      "ml_usage": 1,
+      "ml_data_importance": 2,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 1,
+      "exploration_exploitation": 2
+    }
+  },
+  {
+    "submission_id": "c2-pre-03",
+    "responses": {
+      "age": [
+        "12-13"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "Programmieren",
+        "maschinelles Lernen",
+        "Javascript",
+        "Robotik"
+      ],
+      "ml": 4,
+      "ml_types": 1,
+      "ml_usage": 3,
+      "ml_data_importance": 2,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 1,
+      "exploration_exploitation": 1
+    }
+  },
+  {
+    "submission_id": "c2-pre-04",
+    "responses": {
+      "age": [
+        "14-15"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "Zukunft",
+        "Effizienz",
+        "Wissenschaft"
+      ],
+      "ml": 3,
+      "ml_types": 1,
+      "ml_usage": 1,
+      "ml_data_importance": 3,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 1,
+      "exploration_exploitation": 1
+    }
+  }
+]

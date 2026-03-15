@@ -1,0 +1,302 @@
+[
+  {
+    "submission_id": "c1-pre-01",
+    "responses": {
+      "age": [
+        "u12"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "Zukunft",
+        "Entwicklung",
+        "Assistent",
+        "künstliche DNS"
+      ],
+      "ml": 2,
+      "ml_types": 3,
+      "ml_usage": 2,
+      "ml_data_importance": null,
+      "nearest_neighbor": null,
+      "linear_regression": 2,
+      "reinforcement_learning": 2,
+      "exploration_exploitation": 2
+    }
+  },
+  {
+    "submission_id": "c1-pre-02",
+    "responses": {
+      "age": [
+        "u12"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "art_culture",
+        "sport",
+        "crafts"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "künstliche Intelligenz",
+        "Roboter",
+        "Technologie",
+        "Fortschritt",
+        "Wissenschaft"
+      ],
+      "ml": 5,
+      "ml_types": 3,
+      "ml_usage": 3,
+      "ml_data_importance": 5,
+      "nearest_neighbor": 4,
+      "linear_regression": 3,
+      "reinforcement_learning": 4,
+      "exploration_exploitation": 4
+    }
+  },
+  {
+    "submission_id": "c1-pre-03",
+    "responses": {
+      "age": [
+        "u12"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "sport"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "Lernen",
+        "ausprobieren",
+        "Wissenschaft"
+      ],
+      "ml": 4,
+      "ml_types": 1,
+      "ml_usage": 1,
+      "ml_data_importance": 2,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 2,
+      "exploration_exploitation": 3
+    }
+  },
+  {
+    "submission_id": "c1-pre-04",
+    "responses": {
+      "age": [
+        "14-15"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "art_culture",
+        "crafts"
+      ],
+      "club_membership": [],
+      "word_associations": [
+        "intelligent",
+        "selbstständiges Lernen",
+        "Zukunft",
+        "potenzielle Gefahr"
+      ],
+      "ml": 3,
+      "ml_types": 2,
+      "ml_usage": 1,
+      "ml_data_importance": 3,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 2,
+      "exploration_exploitation": 1
+    }
+  },
+  {
+    "submission_id": "c1-pre-05",
+    "responses": {
+      "age": [
+        "12-13"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "sport"
+      ],
+      "club_membership": [],
+      "word_associations": [],
+      "ml": 2,
+      "ml_types": 1,
+      "ml_usage": 1,
+      "ml_data_importance": 1,
+      "nearest_neighbor": null,
+      "linear_regression": null,
+      "reinforcement_learning": null,
+      "exploration_exploitation": null
+    }
+  },
+  {
+    "submission_id": "c1-pre-06",
+    "responses": {
+      "age": [
+        "16-17"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science"
+      ],
+      "club_membership": [
+        "tech_science"
+      ],
+      "word_associations": [
+        "Fotobearbeitung",
+        "Info suchen",
+        "Übersetzen"
+      ],
+      "ml": 4,
+      "ml_types": 3,
+      "ml_usage": 3,
+      "ml_data_importance": 4,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 3,
+      "exploration_exploitation": 4
+    }
+  },
+  {
+    "submission_id": "c1-pre-07",
+    "responses": {
+      "age": [
+        "12-13"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "sport"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [],
+      "ml": 2,
+      "ml_types": 1,
+      "ml_usage": 1,
+      "ml_data_importance": 2,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 1,
+      "exploration_exploitation": 1
+    }
+  },
+  {
+    "submission_id": "c1-pre-08",
+    "responses": {
+      "age": [
+        "12-13"
+      ],
+      "career_interest": [
+        "no"
+      ],
+      "interest_areas": [
+        "sport"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "künstlich",
+        "intelligent",
+        "schlau"
+      ],
+      "ml": 4,
+      "ml_types": 1,
+      "ml_usage": 1,
+      "ml_data_importance": 1,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 1,
+      "exploration_exploitation": 1
+    }
+  },
+  {
+    "submission_id": "c1-pre-09",
+    "responses": {
+      "age": [
+        "12-13"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "tech_science"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "ChatGPT",
+        "Helfer",
+        "Zukunft"
+      ],
+      "ml": 3,
+      "ml_types": 2,
+      "ml_usage": 1,
+      "ml_data_importance": 2,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 1,
+      "exploration_exploitation": 1
+    }
+  },
+  {
+    "submission_id": "c1-pre-10",
+    "responses": {
+      "age": [
+        "14-15"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "tech_science"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "Roboter",
+        "Maschinen",
+        "Programmieren",
+        "0 mal 1"
+      ],
+      "ml": 2,
+      "ml_types": 1,
+      "ml_usage": 1,
+      "ml_data_importance": 1,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 1,
+      "exploration_exploitation": 3
+    }
+  }
+]

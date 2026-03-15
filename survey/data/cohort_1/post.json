@@ -1,0 +1,410 @@
+[
+  {
+    "submission_id": "c1-post-01",
+    "responses": {
+      "age": [
+        "u12"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "sport"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "künstlich",
+        "intelligent",
+        "Kind"
+      ],
+      "ml": 1,
+      "ml_types": 2,
+      "ml_usage": 2,
+      "ml_data_importance": null,
+      "nearest_neighbor": null,
+      "linear_regression": null,
+      "reinforcement_learning": 2,
+      "exploration_exploitation": null,
+      "course_design_math": 3,
+      "course_design_clear_visualization": null,
+      "course_design_interesting_visualization": 5,
+      "course_design_web_platform": null,
+      "course_design_presentation": 3,
+      "course_engagement_recommend": 3,
+      "course_engagement_fun": 5,
+      "course_impact_continue": 5,
+      "course_impact_skills": 4,
+      "open_feedback": "war gut kann empfehlen"
+    }
+  },
+  {
+    "submission_id": "c1-post-02",
+    "responses": {
+      "age": [
+        "16-17"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science"
+      ],
+      "club_membership": [
+        "tech_science"
+      ],
+      "word_associations": [
+        "Bildbearbeitung",
+        "Hilfe beim Arbeiten",
+        "Informationsrecherche"
+      ],
+      "ml": 4,
+      "ml_types": 3,
+      "ml_usage": 4,
+      "ml_data_importance": 4,
+      "nearest_neighbor": 3,
+      "linear_regression": 4,
+      "reinforcement_learning": 4,
+      "exploration_exploitation": 3,
+      "course_design_math": 4,
+      "course_design_clear_visualization": 4,
+      "course_design_interesting_visualization": 4,
+      "course_design_web_platform": 3,
+      "course_design_presentation": 4,
+      "course_engagement_recommend": 4,
+      "course_engagement_fun": 4,
+      "course_impact_continue": 5,
+      "course_impact_skills": 4,
+      "open_feedback": "Ich habe was neues gelernt über KI und mit dem LEGOs waren interessant"
+    }
+  },
+  {
+    "submission_id": "c1-post-03",
+    "responses": {
+      "age": [
+        "12-13"
+      ],
+      "career_interest": [],
+      "interest_areas": [
+        "tech_science",
+        "sport"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "künstlich",
+        "intelligent",
+        "Roboter"
+      ],
+      "ml": 4,
+      "ml_types": 1,
+      "ml_usage": 1,
+      "ml_data_importance": 1,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 1,
+      "exploration_exploitation": 1,
+      "course_design_math": 4,
+      "course_design_clear_visualization": 3,
+      "course_design_interesting_visualization": 4,
+      "course_design_web_platform": 3,
+      "course_design_presentation": 4,
+      "course_engagement_recommend": 4,
+      "course_engagement_fun": 5,
+      "course_impact_continue": 2,
+      "course_impact_skills": 3,
+      "open_feedback": null
+    }
+  },
+  {
+    "submission_id": "c1-post-04",
+    "responses": {
+      "age": [
+        "14-15"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "art_culture",
+        "sport",
+        "crafts"
+      ],
+      "club_membership": [],
+      "word_associations": [
+        "Daten",
+        "Lernen",
+        "Intelligent"
+      ],
+      "ml": 5,
+      "ml_types": 4,
+      "ml_usage": 3,
+      "ml_data_importance": 4,
+      "nearest_neighbor": 5,
+      "linear_regression": 4,
+      "reinforcement_learning": 4,
+      "exploration_exploitation": 4,
+      "course_design_math": 5,
+      "course_design_clear_visualization": 5,
+      "course_design_interesting_visualization": 5,
+      "course_design_web_platform": 5,
+      "course_design_presentation": 5,
+      "course_engagement_recommend": 4,
+      "course_engagement_fun": 4,
+      "course_impact_continue": 5,
+      "course_impact_skills": 4,
+      "open_feedback": null
+    }
+  },
+  {
+    "submission_id": "c1-post-05",
+    "responses": {
+      "age": [
+        "12-13"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "art_culture",
+        "sport",
+        "crafts"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "Daten",
+        "Lernen"
+      ],
+      "ml": 4,
+      "ml_types": 3,
+      "ml_usage": 4,
+      "ml_data_importance": 4,
+      "nearest_neighbor": 3,
+      "linear_regression": 3,
+      "reinforcement_learning": 4,
+      "exploration_exploitation": 2,
+      "course_design_math": 4,
+      "course_design_clear_visualization": 4,
+      "course_design_interesting_visualization": 5,
+      "course_design_web_platform": 5,
+      "course_design_presentation": 5,
+      "course_engagement_recommend": 4,
+      "course_engagement_fun": 4,
+      "course_impact_continue": 3,
+      "course_impact_skills": 3,
+      "open_feedback": null
+    }
+  },
+  {
+    "submission_id": "c1-post-06",
+    "responses": {
+      "age": [
+        "u12"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "art_culture",
+        "sport",
+        "crafts"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "Roboter",
+        "Technologie",
+        "Fortschritt",
+        "KI"
+      ],
+      "ml": 5,
+      "ml_types": 4,
+      "ml_usage": 4,
+      "ml_data_importance": 5,
+      "nearest_neighbor": 5,
+      "linear_regression": 3,
+      "reinforcement_learning": 4,
+      "exploration_exploitation": 5,
+      "course_design_math": 4,
+      "course_design_clear_visualization": 5,
+      "course_design_interesting_visualization": 5,
+      "course_design_web_platform": 4,
+      "course_design_presentation": 5,
+      "course_engagement_recommend": 5,
+      "course_engagement_fun": 5,
+      "course_impact_continue": 5,
+      "course_impact_skills": 4,
+      "open_feedback": "Der Kurs war toll!!! :)"
+    }
+  },
+  {
+    "submission_id": "c1-post-07",
+    "responses": {
+      "age": [
+        "u12"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "sport"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "maschinelles Lernen",
+        "Wissenschaft",
+        "Modelle",
+        "Belohnungen"
+      ],
+      "ml": 5,
+      "ml_types": 4,
+      "ml_usage": 4,
+      "ml_data_importance": 5,
+      "nearest_neighbor": 4,
+      "linear_regression": 5,
+      "reinforcement_learning": 4,
+      "exploration_exploitation": 5,
+      "course_design_math": 4,
+      "course_design_clear_visualization": 4,
+      "course_design_interesting_visualization": 5,
+      "course_design_web_platform": 5,
+      "course_design_presentation": 5,
+      "course_engagement_recommend": 5,
+      "course_engagement_fun": 5,
+      "course_impact_continue": 5,
+      "course_impact_skills": 3,
+      "open_feedback": "Macht weiter so, es hat total Spaß gemacht! Gibt es ihn nächstes Jahr wieder? Dann empfehle ich ihn meinen Freunden!"
+    }
+  },
+  {
+    "submission_id": "c1-post-08",
+    "responses": {
+      "age": [
+        "u12"
+      ],
+      "career_interest": [],
+      "interest_areas": [
+        "tech_science"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "ChatGPT",
+        "Hilfe",
+        "Zukunft"
+      ],
+      "ml": 4,
+      "ml_types": 4,
+      "ml_usage": 2,
+      "ml_data_importance": 4,
+      "nearest_neighbor": 2,
+      "linear_regression": 4,
+      "reinforcement_learning": 3,
+      "exploration_exploitation": 2,
+      "course_design_math": 4,
+      "course_design_clear_visualization": 3,
+      "course_design_interesting_visualization": 3,
+      "course_design_web_platform": 2,
+      "course_design_presentation": 4,
+      "course_engagement_recommend": 4,
+      "course_engagement_fun": 4,
+      "course_impact_continue": 3,
+      "course_impact_skills": 3,
+      "open_feedback": null
+    }
+  },
+  {
+    "submission_id": "c1-post-09",
+    "responses": {
+      "age": [
+        "14-15"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "sport"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "Roboter",
+        "maschinelles Lernen",
+        "lineare Regression",
+        "Programmieren"
+      ],
+      "ml": 2,
+      "ml_types": 2,
+      "ml_usage": 1,
+      "ml_data_importance": 1,
+      "nearest_neighbor": 2,
+      "linear_regression": 1,
+      "reinforcement_learning": 2,
+      "exploration_exploitation": 1,
+      "course_design_math": null,
+      "course_design_clear_visualization": null,
+      "course_design_interesting_visualization": null,
+      "course_design_web_platform": null,
+      "course_design_presentation": null,
+      "course_engagement_recommend": null,
+      "course_engagement_fun": null,
+      "course_impact_continue": null,
+      "course_impact_skills": null,
+      "open_feedback": null
+    }
+  },
+  {
+    "submission_id": "c1-post-10",
+    "responses": {
+      "age": [
+        "12-13"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "art_culture",
+        "sport"
+      ],
+      "club_membership": [],
+      "word_associations": [
+        "schlauer Assistent",
+        "Bilder"
+      ],
+      "ml": 3,
+      "ml_types": 3,
+      "ml_usage": 2,
+      "ml_data_importance": 3,
+      "nearest_neighbor": 1,
+      "linear_regression": 1,
+      "reinforcement_learning": 1,
+      "exploration_exploitation": 4,
+      "course_design_math": 3,
+      "course_design_clear_visualization": 4,
+      "course_design_interesting_visualization": 3,
+      "course_design_web_platform": 3,
+      "course_design_presentation": 4,
+      "course_engagement_recommend": 3,
+      "course_engagement_fun": 4,
+      "course_impact_continue": 3,
+      "course_impact_skills": 3,
+      "open_feedback": null
+    }
+  }
+]

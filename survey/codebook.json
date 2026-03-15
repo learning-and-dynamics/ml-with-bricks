@@ -1,0 +1,339 @@
+[
+    {
+        "id": "age",
+        "text": "Wie alt bist du?",
+        "survey": "both",
+        "question_type": "multiple_choice",
+        "answers": [
+            {
+                "id": "u12",
+                "text": "unter 12"
+            },
+            {
+                "id": "12-13",
+                "text": "12-13"
+            },
+            {
+                "id": "14-15",
+                "text": "14-15"
+            },
+            {
+                "id": "16-17",
+                "text": "16-17"
+            },
+            {
+                "id": "o17",
+                "text": "älter als 17"
+            }
+        ]
+    },
+    {
+        "id": "career_interest",
+        "text": "Hast du Interesse an einer Karriere im Bereich Maschinelles Lernen / Robotik / Künstliche Intelligenz?",
+        "survey": "both",
+        "question_type": "multiple_choice",
+        "answers": [
+            {
+                "id": "yes",
+                "text": "Ja"
+            },
+            {
+                "id": "no",
+                "text": "Nein"
+            },
+            {
+                "id": "undecided",
+                "text": "Noch nicht überlegt"
+            }
+        ]
+    },
+    {
+        "id": "interest_areas",
+        "text": "Interessierst du dich für einen der folgenden Bereiche?",
+        "survey": "both",
+        "question_type": "multiple_choice",
+        "answers": [
+            {
+                "id": "tech_science",
+                "text": "Technik und Wissenschaft"
+            },
+            {
+                "id": "art_culture",
+                "text": "Kunst und Kultur"
+            },
+            {
+                "id": "sport",
+                "text": "Sport"
+            },
+            {
+                "id": "crafts",
+                "text": "Basteln"
+            },
+            {
+                "id": "other",
+                "text": "Sonstiges"
+            }
+        ]
+    },
+    {
+        "id": "club_membership",
+        "text": "Bist du Mitglied in einem Verein, der sich mit einem der folgenden Bereiche beschäftigt?",
+        "survey": "both",
+        "question_type": "multiple_choice",
+        "answers": [
+            {
+                "id": "tech_science",
+                "text": "Technik und Wissenschaft"
+            },
+            {
+                "id": "art_culture",
+                "text": "Kunst und Kultur"
+            },
+            {
+                "id": "sport",
+                "text": "Sport"
+            },
+            {
+                "id": "crafts",
+                "text": "Basteln"
+            },
+            {
+                "id": "other",
+                "text": "Sonstiges"
+            }
+        ]
+    },
+    {
+        "id": "word_associations",
+        "text": "Schreibe 3-5 Wörter, die du mit KI assoziierst:",
+        "survey": "both",
+        "question_type": "word_array"
+    },
+    {
+        "id": "ml",
+        "text": "Maschinelles Lernen",
+        "survey": "both",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Nie davon gehört",
+            "2": "Habe nur den Namen gehört",
+            "3": "Habe etwas darüber gehört, aber nicht wirklich verstanden",
+            "4": "Habe ein bisschen Bauchgefühl dafür",
+            "5": "Kann es so gut erklären, dass ich es meinem Freund beibringen könnte"
+        }
+    },
+    {
+        "id": "ml_types",
+        "text": "Der Unterschied zwischen den 3 Arten von maschinellem Lernen (überwachtes, unüberwachtes, bestärkendes Lernen)",
+        "survey": "both",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Nie davon gehört",
+            "2": "Habe nur den Namen gehört",
+            "3": "Habe etwas darüber gehört, aber nicht wirklich verstanden",
+            "4": "Habe ein bisschen Bauchgefühl dafür",
+            "5": "Kann es so gut erklären, dass ich es meinem Freund beibringen könnte"
+        }
+    },
+    {
+        "id": "ml_usage",
+        "text": "Wofür man die 3 Arten von maschinellem Lernen benutzen kann",
+        "survey": "both",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Nie davon gehört",
+            "2": "Habe nur den Namen gehört",
+            "3": "Habe etwas darüber gehört, aber nicht wirklich verstanden",
+            "4": "Habe ein bisschen Bauchgefühl dafür",
+            "5": "Kann es so gut erklären, dass ich es meinem Freund beibringen könnte"
+        }
+    },
+    {
+        "id": "ml_data_importance",
+        "text": "Daten und warum sie für maschinelles Lernen wichtig sind",
+        "survey": "both",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Nie davon gehört",
+            "2": "Habe nur den Namen gehört",
+            "3": "Habe etwas darüber gehört, aber nicht wirklich verstanden",
+            "4": "Habe ein bisschen Bauchgefühl dafür",
+            "5": "Kann es so gut erklären, dass ich es meinem Freund beibringen könnte"
+        }
+    },
+    {
+        "id": "nearest_neighbor",
+        "text": "K Nächste Nachbarn",
+        "survey": "both",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Nie davon gehört",
+            "2": "Habe nur den Namen gehört",
+            "3": "Habe etwas darüber gehört, aber nicht wirklich verstanden",
+            "4": "Habe ein bisschen Bauchgefühl dafür",
+            "5": "Kann es so gut erklären, dass ich es meinem Freund beibringen könnte"
+        }
+    },
+    {
+        "id": "linear_regression",
+        "text": "Lineare Regression",
+        "survey": "both",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Nie davon gehört",
+            "2": "Habe nur den Namen gehört",
+            "3": "Habe etwas darüber gehört, aber nicht wirklich verstanden",
+            "4": "Habe ein bisschen Bauchgefühl dafür",
+            "5": "Kann es so gut erklären, dass ich es meinem Freund beibringen könnte"
+        }
+    },
+    {
+        "id": "reinforcement_learning",
+        "text": "Bestärkendes Lernen",
+        "survey": "both",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Nie davon gehört",
+            "2": "Habe nur den Namen gehört",
+            "3": "Habe etwas darüber gehört, aber nicht wirklich verstanden",
+            "4": "Habe ein bisschen Bauchgefühl dafür",
+            "5": "Kann es so gut erklären, dass ich es meinem Freund beibringen könnte"
+        }
+    },
+    {
+        "id": "exploration_exploitation",
+        "text": "Das Problem mit Entdecken und Ausprobieren (Exploration und Exploitation) im bestärkenden Lernen",
+        "survey": "both",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Nie davon gehört",
+            "2": "Habe nur den Namen gehört",
+            "3": "Habe etwas darüber gehört, aber nicht wirklich verstanden",
+            "4": "Habe ein bisschen Bauchgefühl dafür",
+            "5": "Kann es so gut erklären, dass ich es meinem Freund beibringen könnte"
+        }
+    },
+    {
+        "id": "course_design_math",
+        "text": "Ich konnte der Mathematik im Kurs folgen",
+        "survey": "post",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Stimme überhaupt nicht zu",
+            "2": "Stimme nicht zu",
+            "3": "Neutral",
+            "4": "Stimme zu",
+            "5": "Stimme voll und ganz zu"
+        }
+    },
+    {
+        "id": "course_design_clear_visualization",
+        "text": "Die Datenvisualisierungen waren klar",
+        "survey": "post",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Stimme überhaupt nicht zu",
+            "2": "Stimme nicht zu",
+            "3": "Neutral",
+            "4": "Stimme zu",
+            "5": "Stimme voll und ganz zu"
+        }
+    },
+    {
+        "id": "course_design_interesting_visualization",
+        "text": "Die Datenvisualisierungen waren interessant",
+        "survey": "post",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Stimme überhaupt nicht zu",
+            "2": "Stimme nicht zu",
+            "3": "Neutral",
+            "4": "Stimme zu",
+            "5": "Stimme voll und ganz zu"
+        }
+    },
+    {
+        "id": "course_design_web_platform",
+        "text": "Die Web-Plattform ist intuitiv und einfach zu bedienen",
+        "survey": "post",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Stimme überhaupt nicht zu",
+            "2": "Stimme nicht zu",
+            "3": "Neutral",
+            "4": "Stimme zu",
+            "5": "Stimme voll und ganz zu"
+        }
+    },
+    {
+        "id": "course_design_presentation",
+        "text": "Die Präsentation und die Beispiele waren leicht",
+        "survey": "post",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Stimme überhaupt nicht zu",
+            "2": "Stimme nicht zu",
+            "3": "Neutral",
+            "4": "Stimme zu",
+            "5": "Stimme voll und ganz zu"
+        }
+    },
+    {
+        "id": "course_engagement_recommend",
+        "text": "Ich würde den Kurs meinen Freunden empfehlen",
+        "survey": "post",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Stimme überhaupt nicht zu",
+            "2": "Stimme nicht zu",
+            "3": "Neutral",
+            "4": "Stimme zu",
+            "5": "Stimme voll und ganz zu"
+        }
+    },
+    {
+        "id": "course_engagement_fun",
+        "text": "Ich fand die Geräte, die wir gebaut haben, spaßig und interessant",
+        "survey": "post",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Stimme überhaupt nicht zu",
+            "2": "Stimme nicht zu",
+            "3": "Neutral",
+            "4": "Stimme zu",
+            "5": "Stimme voll und ganz zu"
+        }
+    },
+    {
+        "id": "course_impact_continue",
+        "text": "Ich möchte nach dem Kurs weiterhin maschinelles Lernen erforschen",
+        "survey": "post",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Stimme überhaupt nicht zu",
+            "2": "Stimme nicht zu",
+            "3": "Neutral",
+            "4": "Stimme zu",
+            "5": "Stimme voll und ganz zu"
+        }
+    },
+    {
+        "id": "course_impact_skills",
+        "text": "Ich denke, dass die Fähigkeiten, die ich in diesem Kurs gelernt habe, in meinen zukünftigen Studien oder meiner Karriere nützlich sein werden",
+        "survey": "post",
+        "question_type": "likert_scale_5",
+        "scale": {
+            "1": "Stimme überhaupt nicht zu",
+            "2": "Stimme nicht zu",
+            "3": "Neutral",
+            "4": "Stimme zu",
+            "5": "Stimme voll und ganz zu"
+        }
+    },
+    {
+        "id": "open_feedback",
+        "text": "Willst du uns noch etwas über den Kurs zu sagen? Dann schreib mal hier!",
+        "survey": "post",
+        "question_type": "open_text"
+    }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "submission_id": "c2-post-01",
+    "responses": {
+      "age": [
+        "12-13"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "maschinelles Lernen",
+        "überwachtes Lernen",
+        "Agent",
+        "Handlung",
+        "Umgebung"
+      ],
+      "ml": 4,
+      "ml_types": 4,
+      "ml_usage": 4,
+      "ml_data_importance": 3,
+      "nearest_neighbor": 5,
+      "linear_regression": 3,
+      "reinforcement_learning": 3,
+      "exploration_exploitation": 4,
+      "course_design_math": 4,
+      "course_design_clear_visualization": 4,
+      "course_design_interesting_visualization": 5,
+      "course_design_web_platform": 5,
+      "course_design_presentation": 5,
+      "course_engagement_recommend": 5,
+      "course_engagement_fun": 5,
+      "course_impact_continue": 4,
+      "course_impact_skills": 5,
+      "open_feedback": "Super interessant"
+    }
+  },
+  {
+    "submission_id": "c2-post-02",
+    "responses": {
+      "age": [
+        "u12"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "art_culture",
+        "sport",
+        "crafts"
+      ],
+      "club_membership": [
+        "art_culture",
+        "sport"
+      ],
+      "word_associations": [
+        "künstliche Intelligenz",
+        "maschinelles Lernen",
+        "Unterstützung von Maschinen"
+      ],
+      "ml": 5,
+      "ml_types": 4,
+      "ml_usage": 5,
+      "ml_data_importance": 5,
+      "nearest_neighbor": 4,
+      "linear_regression": 3,
+      "reinforcement_learning": 5,
+      "exploration_exploitation": 5,
+      "course_design_math": 4,
+      "course_design_clear_visualization": 5,
+      "course_design_interesting_visualization": 5,
+      "course_design_web_platform": 5,
+      "course_design_presentation": 5,
+      "course_engagement_recommend": 5,
+      "course_engagement_fun": 5,
+      "course_impact_continue": 4,
+      "course_impact_skills": 4,
+      "open_feedback": "Ich fande diesen Kurs richtig cool und die Betreuer waren super."
+    }
+  },
+  {
+    "submission_id": "c2-post-03",
+    "responses": {
+      "age": [
+        "14-15"
+      ],
+      "career_interest": [
+        "yes"
+      ],
+      "interest_areas": [
+        "tech_science"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "Technik",
+        "Wissenschaft",
+        "Zukunft"
+      ],
+      "ml": 4,
+      "ml_types": 4,
+      "ml_usage": 4,
+      "ml_data_importance": 5,
+      "nearest_neighbor": 5,
+      "linear_regression": 5,
+      "reinforcement_learning": 4,
+      "exploration_exploitation": 4,
+      "course_design_math": 5,
+      "course_design_clear_visualization": 5,
+      "course_design_interesting_visualization": 4,
+      "course_design_web_platform": 4,
+      "course_design_presentation": 5,
+      "course_engagement_recommend": 4,
+      "course_engagement_fun": 4,
+      "course_impact_continue": 4,
+      "course_impact_skills": 4,
+      "open_feedback": null
+    }
+  },
+  {
+    "submission_id": "c2-post-04",
+    "responses": {
+      "age": [
+        "12-13"
+      ],
+      "career_interest": [
+        "undecided"
+      ],
+      "interest_areas": [
+        "tech_science",
+        "sport"
+      ],
+      "club_membership": [
+        "sport"
+      ],
+      "word_associations": [
+        "Programmieren",
+        "Roboter",
+        "einen Code Programmieren"
+      ],
+      "ml": 4,
+      "ml_types": 3,
+      "ml_usage": 3,
+      "ml_data_importance": 2,
+      "nearest_neighbor": 2,
+      "linear_regression": 1,
+      "reinforcement_learning": 3,
+      "exploration_exploitation": 2,
+      "course_design_math": 5,
+      "course_design_clear_visualization": 3,
+      "course_design_interesting_visualization": 4,
+      "course_design_web_platform": 4,
+      "course_design_presentation": 5,
+      "course_engagement_recommend": 4,
+      "course_engagement_fun": 5,
+      "course_impact_continue": 3,
+      "course_impact_skills": 4,
+      "open_feedback": "Es war ein sehr toller Kurs!"
+    }
+  }
+]
